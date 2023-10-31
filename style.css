@@ -1,0 +1,115 @@
+body
+{
+    background-color: rgba(255, 255, 255, 0.384);
+}
+
+/***************** 1.Baslik ****************/
+
+.header-1
+{
+    text-align: center;
+    color: red;
+    font-family: 'Oswald', sans-serif;
+    margin-top: 100px;
+}
+
+/***************** 2.Baslik ****************/
+
+.header-2
+{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 55px;
+    margin-top: 45px ;
+    
+}
+
+/***************** 1.Kutu ******************/
+
+.box
+{
+    float: left;
+    width: 140px;
+    margin: 150px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 151px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+   
+}
+
+/****************** 2.Kutu ******************/
+
+.box-2
+{
+    float: left;
+    width: 170px;
+    margin: 150px;
+    margin-top: 173px;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    box-shadow: 20px 20px 50px grey;
+}
+
+/***************** Extra Kutu  ****************/
+
+.box-extra
+{
+position: absolute;
+width: 80px;
+height: 80px;
+border-radius: 20px;
+margin-left: 568px;
+margin-top: 445px;
+z-index: -1;
+background-color:rgba(255, 51, 0, 0.87)
+
+}
+
+
+/****************** 3. Kutu *********************/
+
+.box-3
+{
+    float: left;
+    width: 140px;
+    margin: 150px;
+    margin-top: 138px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+/******************** 4.Kutu *********************/
+
+.box-4
+{
+    float: left;
+    width: 145px;
+    margin: 150px;
+    margin-top: 95px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    
+}
+
+/****************** Card Yazıları *****************/
+.card-text
+{
+    color: darkgrey;
+    
+}
+
+
+
+
+
