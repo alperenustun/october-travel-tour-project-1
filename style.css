@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.book-trip{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1605px;
+    height: 600px;
+    margin: auto;
+}
+.book-trip-illustration,
+.illustration-img{
+    width: 880px;
+    height: 600px;
+}
+.book-trip-context{
+    width: 458px;
+    height: 488px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.context-values{
+    width: 395px;
+    height: 285px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.context-value{
+    width: 395px;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+.context-h4{
+    color: #DF6951;
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: normal;
+}
+.context-h1{
+    color: #181E4B;
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.values-img{
+    width: 47px;
+    height: 48px;
+}
+.values-text{
+    width: 327px;
+    height: 40px;
+}
+.text-h5{
+    color: #5E6282;
+    font-family: 'Poppins', serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.text-p{
+    color: #5E6282;
+    font-family: 'Poppins', serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
