@@ -1,0 +1,22 @@
+* {
+  margin: auto;
+}
+
+.travel-tour-container {
+  padding: 10px;
+}
+
+.travel-tour-section {
+  padding: 10px;
+}
+
+.travel-tour-partners ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.travel-tour-partners img {
+  max-width: 100px;
+  height: auto;
+}
