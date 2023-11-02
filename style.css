@@ -44,7 +44,6 @@ a{
 }
 .nav-link-union{
     position: relative;
-    border: 2px solid black;
 }
 .contact-link{
     width: 152px;
@@ -61,7 +60,7 @@ a{
     width: 79px;
     height: 16px;
 }
-.context-p{
+.hero-context-p{
     width: 631px;
     height: 244px;
     color: #fff;
@@ -70,7 +69,7 @@ a{
     font-style: normal;
     line-height: 67.988px;
 }
-.context-selections{
+.hero-context-selections{
     width: 844px;
     height: 102px;
     border-radius: 5.224px;
@@ -83,12 +82,12 @@ a{
     backdrop-filter: blur(17.6px);
     -webkit-backdrop-filter: blur(17.6px);
 }
-.context-input,
-.context-input::placeholder ,
-.context-selection,
-.context-buton,
-.user-plus>h2,
-.user-p{
+.hero-context-input,
+.hero-context-input::placeholder ,
+.hero-context-selection,
+.hero-context-buton,
+.hero-user-plus>h2,
+.hero-user-p{
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-size: 18.805px;
@@ -96,24 +95,24 @@ a{
     font-weight: 400;
     line-height: normal;
 }
-.context-input {
+.hero-context-input {
     border: none;
     background: rgba(243, 243, 243, 0);
     width: 120px;
     height: 28px;
     outline: none;
 }
-.context-selection{
+.hero-context-selection{
     border: none;
     background: rgba(243, 243, 243, 0);
     outline: none;
     -webkit-border-radius: 2px;
     padding: 0 12px;
 }
-.context-selection > option{
+.hero-context-selection > option{
     color: black;
 }
-.context-buton{
+.hero-context-buton{
     border: none;
     border-radius: 10px;
     padding: 16px 55px 15.416px 55px;
@@ -135,14 +134,14 @@ a{
 
 }
 
-.user-pp{
+.hero-user-pp{
     border: solid 2px white;
     border-radius: 35.997px;
     width: 36px;
     height: 36px;
     display: inline-block;
 }
-.user-plus{
+.hero-user-plus{
     background-image: url('images/user-plus.png');
     background-repeat: no-repeat;
     width: 36px;
@@ -150,16 +149,16 @@ a{
     display: inline-block;
     translate: -90px -10px;
 }
-.user-plus>h2{
+.hero-user-plus>h2{
     padding: 5px 11px;
     font-weight: 500;
 }
-.context-user{
+.hero-context-user{
     width: 1000px;
     height: 50px;
     margin: 20px;
 }
-.user-p{
+.hero-user-p{
     display: inline-block;
     font-weight: 500;
     font-size: 12.537px;
@@ -196,6 +195,7 @@ a{
     max-width: 1605px;
     height: 600px;
     margin: auto;
+    translate: 10% 0;
 }
 .book-trip-illustration,
 .illustration-img{
@@ -209,27 +209,27 @@ a{
     justify-content: space-between;
     flex-direction: column;
 }
-.context-values{
+.book-context-values{
     width: 395px;
     height: 285px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.context-value{
+.book-context-value{
     width: 395px;
     height: 64px;
     display: flex;
     justify-content: space-between;
 }
-.context-h4{
+.book-context-h4{
     color: #DF6951;
     font-family: 'Poppins', serif;
     font-weight: 700;
     font-size: 18px;
     line-height: normal;
 }
-.context-h1{
+.book-context-h1{
     color: #181E4B;
     font-family: 'Volkhov', serif;
     font-size: 50px;
@@ -237,22 +237,22 @@ a{
     line-height: normal;
     text-transform: capitalize;
 }
-.values-img{
+.book-values-img{
     width: 47px;
     height: 48px;
 }
-.values-text{
+.book-values-text{
     width: 327px;
     height: 40px;
 }
-.text-h5{
+.book-text-h5{
     color: #5E6282;
     font-family: 'Poppins', serif;
     font-size: 16px;
     font-weight: 700;
     line-height: 20px;
 }
-.text-p{
+.book-text-p{
     color: #5E6282;
     font-family: 'Poppins', serif;
     font-size: 16px;
