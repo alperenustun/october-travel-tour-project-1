@@ -1,0 +1,13 @@
+.container
+{
+   display: flex;
+  
+}
+
+.container img
+{
+    
+    width: 100%;
+    margin-top: 300px;
+    
+}
