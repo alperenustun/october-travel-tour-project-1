@@ -1,0 +1,220 @@
+.homepage-hero{
+    background-image: url("../images/about-images/about-header-img.png");
+    height: 766px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about-hero-h4{
+    color: #FFEFEC;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+    margin: auto;
+}
+.about-hero-h1{
+    color: #fff;
+    font-family: 'Yesteryear', cursive;
+    font-size: 157.426px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 223.678px;
+}
+.about-heading-hero{
+    margin: 150px auto;
+    max-width: 490px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+}
+.about-context-box{
+    /* height: 820px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+.about-context-box > img{
+    width: 850px;
+    padding-left: 50px;
+}
+.about-context-h5,
+.about-statistic-h5,
+.statistic-gruop-text,
+.about-info-h4{
+    color: #DF6951;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.8px;
+}
+.about-context-h1,
+.about-statistic-h1,
+.about-info-h1{
+    color: #181E4B;
+    font-family: 'Volkhov', serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.842px;
+}
+.about-context-p,
+.about-statistic-p{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.about-context-btn{
+    border: none;
+    border-radius: 10px;
+    background: #DF6951;
+    width: 176.561px;
+    height: 56.416px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16.71px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #fff;
+    cursor: pointer;
+}
+.about-context-hero{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.about-video-hero{
+    max-width: 100%;
+    position: relative;
+}
+.about-video-hero > video{
+    width: 100%;
+    height: 100%;
+}
+.about-video-tint{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    left: 0;
+    top: 0;
+}
+.about-video-h1{
+    color: #fff;
+    font-family: 'Yesteryear', cursive;
+    font-size: 157.426px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 223.678px;
+    position: absolute;
+    z-index: 998;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.about-statistic{
+    padding-right: 8%; 
+    margin: 107px auto;
+}
+.about-statistic-hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.about-statistic-hero > img{
+    width: 556px;
+    height: 645px;
+}
+.about-statistic-box{
+    width: 700px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-statistics-gruop{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-statistic-text{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.statistic-gruop-box{
+    width: 155.5px;
+    height: 199px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.statistic-gruop-box > img{
+    width: 155.109px;
+    height: 155.109px;
+}
+.shell-img{
+    position: absolute;
+    width: 340px;
+    height: 255px;
+    right: -240px;
+    top: 30px;
+}
+.statistic-gruop-text{
+    color: #181E4B;
+}
+.gruop-text3{
+    letter-spacing: 0px;
+}
+.about-info-box{
+    max-width: 1620px;
+    height: 1193px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-info-city{
+    display: grid;
+    grid-template-columns: repeat(4, 363px);
+    grid-template-rows: repeat(3, 363px);
+    gap: 50px;
+}
+.about-city-box{
+    width: 363px;
+    position: relative;
+}
+.city-box-img{
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+}
+.about-city-text{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 289px;
+    height: 33px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    bottom: 24px;
+    left: 37px;
+}
