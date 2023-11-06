@@ -5,10 +5,44 @@
     box-sizing: border-box;
 }
 
-img
+.img
 {
-width: 150px ;
-margin-left: 60px;
+
+    width: 72px;
+    height: 72px;
+    top: 1454px;
+    margin-left: 60px;
+
+
+}
+
+
+.img-2
+{
+    width: 92px;
+    height: 92px;
+    top: 1439px;
+    margin-left: 80px;
+
+}
+
+.img-3
+{
+    width: 66px;
+    height: 66px;
+    top: 1465px;
+    margin-left: 60px;
+
+}
+
+
+.img-4
+{
+    width: 72px;
+    height: 72px;
+    top: 1462px;
+    margin-left: 60px;
+
 }
 
 .container
@@ -25,84 +59,230 @@ margin-left: 60px;
 
 .product-card
 {
+
     
+    width: 195px;
+    height: 234px;
+    top: 1454px;
+    left: 320px;
+
     
-    color: white;
-    border-radius: 6px;
-    padding: 20px;
-    width: 300px;
-    height: 340px;
-    margin-top: 90px;
-    position: relative;
+
+
 }
 
 .header
 {
- text-align: center;
- margin: 200px;
- font-size: x-large;
- padding-bottom: 10px;
- margin-bottom: 20px;
- font-size: 30px;
- 
+
+
+
+    width: 947px;
+    height: 65px;
+    margin-top: 33px;
+    margin-left: 450px;
+    margin-bottom: 100px;
+    font-family: 'Volkhov', serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 65px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #181E4B;
+    
+
+
     
 }
 
 .header-1
 {
-    color: orange;
+   
+    color:#DF6951;
+    font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
+    margin-top:100px ;
     font-size: 15px;
+
 }
 
-.card-text
+.card-text-1
 {
-font-family: 'Noto Sans', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Oswald', sans-serif;
-font-size: 27px;
-text-align: center;
-color: gray;
+   
+    width: 195px;
+    height: 78px;
+    margin-top: 10px;
+    left: 320px;
+    color: #5E6282;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    
+    
 
 }
+
+
+.card-text-2
+{
+    
+    width: 199px;
+    height: 78px;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#5E6282;
+
+    
+
+}
+
+
+.card-text-3
+{
+   
+    width: 187px;
+    height: 78px;
+    margin-top: 10px;
+    left: 1093px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#5E6282;
+
+    
+
+}
+
+
+.card-text-4
+{
+   
+    width: 187px;
+    height: 78px;
+    margin-top: 10px;
+    left: 1415px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#5E6282;
+
+    
+
+}
+
+
 
 .card-text-header
 {
-font-family: 'Noto Sans', sans-serif;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Oswald', sans-serif;
-color: black;
-font-size: 30px;
-text-align: center;
+
+    width: 135px;
+    height: 30px;
+    margin-top: 37px;
+    margin-left: 25px;
+    font-family: 'Poppins', sans-serif;    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    
 
 }
 
 
+.card-text-header-2
+{
+
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:  #1E1D4C;
+
+    
+}
+
+.card-text-header-3
+{
+
+    width: 154px;
+    height: 30px;
+    margin-top: 37px;
+    margin-left: 19px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1E1D4C;
+
+    
+   
+
+}
+
+
+.card-text-header-4
+{
+   
+    width: 188px;
+    height: 30px;
+    margin-top: 37px;
+    left: 1414px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
 .product-card-extra
 {
-    
-    width: 80px;
-    height: 80px;
+
+    width: 100px;
+    height: 100px;
     position: absolute;
-    margin-left: 340px;
-    margin-top: 400px;
-    background-color: chocolate;
-    border-radius: 20px;
-    z-index: -1;
+    margin-left: 320px;
+    margin-top: 350px;
+    background-color: #DF6951;
+    border-radius: 30px;
+    z-index: -1; 
 }
 
 .product-card-2
 {
-    border-radius: 6px;
+
+    border-radius: 5px;
     padding: 10px;
-    width: 300px;
-    height: 340px;
-    margin-top: 90px;
+    width: 267px;
+    height: 314px;
+    margin-top: 50px;
     position: relative;
     background-color: white;
     border-radius: 25px;
     padding: 10px;
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px 8px ;
+    filter: drop-shadow(3px 3px 5px rgb(212, 212, 211));
 }
