@@ -23,7 +23,6 @@ a {
 }
 
 /*HEADER*/
-
 .hero-box {
   max-width: 1280px;
   margin: 0 auto;
@@ -187,10 +186,6 @@ a {
   width: 392px;
   height: 392px;
 }
-* {
-  margin: auto;
-}
-
 .travel-tour-section {
   padding: 10px;
 }
