@@ -198,7 +198,6 @@ a {
   display: flex;
   list-style: none;
   margin: auto;
-  border: 5px solid red;
   max-width: 100%;
 }
 
