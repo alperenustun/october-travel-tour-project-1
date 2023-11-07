@@ -186,17 +186,15 @@ a {
   height: 392px;
 }
 .book-trip {
-  display: flex;
-  justify-content: space-between;
-  max-width: 1500px;
-  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(2 , 600px);
+  max-width: 1250px;
   margin: auto;
-  padding-left: 120px;
 }
 .book-trip-illustration,
 .illustration-img {
-  width: 880px;
-  height: 600px;
+  width: 750px;
+  
 }
 .book-trip-context {
   width: 458px;
