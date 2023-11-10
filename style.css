@@ -186,18 +186,20 @@ a {
   width: 392px;
   height: 392px;
 }
+
 .travel-tour-section {
-  padding: 10px;
+  padding: 30px 0;
 }
 
 .travel-tour-partners ul {
   display: flex;
-  list-style: none;
-  margin: auto;
-  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1400px;
 }
 
 .travel-tour-partners img {
-  max-width: 100px;
-  height: auto;
+  width: 100px;
 }
