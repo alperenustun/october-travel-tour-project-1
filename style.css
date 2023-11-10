@@ -105,6 +105,7 @@ a {
   background: rgba(243, 243, 243, 0);
   outline: none;
   -webkit-border-radius: 2px;
+  border-radius: 2px;
   padding: 0 12px;
 }
 .context-selection > option {
@@ -184,4 +185,21 @@ a {
   bottom: -210px;
   width: 392px;
   height: 392px;
+}
+
+.travel-tour-section {
+  padding: 30px 0;
+}
+
+.travel-tour-partners ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.travel-tour-partners img {
+  width: 100px;
 }
