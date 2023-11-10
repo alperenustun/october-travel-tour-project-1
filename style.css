@@ -39,7 +39,7 @@ a {
   align-items: center;
   gap: 50px;
 }
-.nav-link-union {
+.nav-link-dropdown {
   position: relative;
 }
 .contact-link {
@@ -118,17 +118,18 @@ a {
   font-weight: 600;
   cursor: pointer;
 }
-.hero-nav-union > a {
+.hero-nav-dropdown > a {
   display: block;
   margin-top: 20px;
 }
-.hero-nav-union {
+.hero-nav-dropdown {
   width: 230px;
   height: 190px;
   background-image: url("images/Union.png");
   background-repeat: no-repeat;
   padding: 15px 5px;
   position: absolute;
+  display: none;
 }
 
 .user-pp {
