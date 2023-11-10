@@ -23,7 +23,6 @@ a {
 }
 
 /*HEADER*/
-
 .hero-box {
   max-width: 1280px;
   margin: 0 auto;
@@ -40,7 +39,7 @@ a {
   align-items: center;
   gap: 50px;
 }
-.nav-link-dropdown {
+.nav-link-union {
   position: relative;
 }
 .contact-link {
@@ -105,6 +104,7 @@ a {
   background: rgba(243, 243, 243, 0);
   outline: none;
   -webkit-border-radius: 2px;
+  border-radius: 2px;
   padding: 0 12px;
 }
 .context-selection > option {
@@ -118,18 +118,17 @@ a {
   font-weight: 600;
   cursor: pointer;
 }
-.hero-nav-dropdown > a {
+.hero-nav-union > a {
   display: block;
   margin-top: 20px;
 }
-.hero-nav-dropdown {
+.hero-nav-union {
   width: 230px;
   height: 190px;
   background-image: url("images/Union.png");
   background-repeat: no-repeat;
   padding: 15px 5px;
   position: absolute;
-  display: none;
 }
 
 .user-pp {
@@ -178,13 +177,28 @@ a {
 .pp-f {
   translate: -75px 0;
 }
-
 .hero-scroll {
   position: absolute;
   left: 20px;
   bottom: -210px;
   width: 392px;
   height: 392px;
+}
+.travel-tour-section {
+  padding: 30px 0;
+}
+
+.travel-tour-partners ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.travel-tour-partners img {
+  width: 100px;
 }
 .book-trip {
   display: grid;
