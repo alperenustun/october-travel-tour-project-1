@@ -22,9 +22,6 @@ a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
-body{
-  overflow-y: none;
-}
 /*HEADER*/
 .hero-box {
   max-width: 1280px;

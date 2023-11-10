@@ -18,9 +18,11 @@ servicesLink.addEventListener("click", () => {
 });
 function increment() {
   scrollOff.style.overflowY = "hidden";
+  scrollOff.style.overflowX = "hidden";
   owerlayPopup.style.display = "block";
 }
 closeOwerlay.addEventListener("click", () => {
   scrollOff.style.overflowY = "scroll";
   owerlayPopup.style.display = "none";
+  scrollOff.style.overflowX = "none";
 });
