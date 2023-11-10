@@ -21,28 +21,26 @@ a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
+
 /*HEADER*/
 .hero-box {
   max-width: 1280px;
   margin: 0 auto;
 }
 .hero-nav {
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1278px;
   margin: 63px 0;
-  z-index: 100;
 }
 .hero-nav-links {
   display: flex;
   align-items: center;
   gap: 50px;
 }
-.nav-link-union {
+.nav-link-dropdown {
   position: relative;
-  display: none;
 }
 .homepage-hero-opac{
   background-color: rgba(0, 0, 0, 0.315);
@@ -124,6 +122,7 @@ a {
   background: rgba(243, 243, 243, 0);
   outline: none;
   -webkit-border-radius: 2px;
+  border-radius: 2px;
   padding: 0 12px;
 }
 .context-selection > option {
@@ -137,17 +136,18 @@ a {
   font-weight: 600;
   cursor: pointer;
 }
-.hero-nav-union > a {
+.hero-nav-dropdown > a {
   display: block;
   margin-top: 20px;
 }
-.hero-nav-union {
+.hero-nav-dropdown {
   width: 230px;
   height: 190px;
   background-image: url("images/Union.png");
   background-repeat: no-repeat;
   padding: 15px 5px;
   position: absolute;
+  display: none;
 }
 
 .user-pp {
@@ -196,11 +196,83 @@ a {
 .pp-f {
   translate: -75px 0;
 }
-
 .hero-scroll {
   position: absolute;
   left: 20px;
   bottom: -210px;
   width: 392px;
   height: 392px;
+}
+.travel-tour-section {
+  padding: 30px 0;
+}
+
+.travel-tour-partners ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.travel-tour-partners img {
+  width: 100px;
+}
+.book-trip {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  max-width: 1250px;
+  margin: auto;
+  padding: 60px 0;
+}
+.book-context-values {
+  height: 285px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.book-context-value {
+  width: 395px;
+  display: flex;
+  justify-content: space-between;
+}
+.book-context-h4 {
+  color: #df6951;
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: normal;
+}
+.book-context-h2 {
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.book-values-img {
+  width: 47px;
+  height: 48px;
+}
+.book-values-text {
+  width: 327px;
+}
+.book-text-h5 {
+  color: #5e6282;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+.book-text-p {
+  color: #5e6282;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
