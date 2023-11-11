@@ -1,0 +1,149 @@
+.product-header {
+  min-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.header-1 {
+  color: #df6951;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.header-2 {
+  font-family: "Volkhov", serif;
+  font-size: 60px;
+  color: #181e4b;
+}
+
+.product-card {
+  width: 1400px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.product-card-switzerland {
+  width: 395px;
+}
+
+.product-card-amazon {
+  width: 395px;
+  height: 900px;
+  display: inline-block;
+}
+
+.product-card-giza {
+  width: 395px;
+  height: 900px;
+  display: inline-block;
+}
+
+.product-card-img {
+  width: 392px;
+  height: 312px;
+  position: relative;
+}
+
+.product-card-img-eclipse {
+  position: absolute;
+  margin-left: -390px;
+  margin-top: 260px;
+}
+
+.product-card-img-calender {
+  position: absolute;
+  margin-top: 360px;
+  margin-left: -380px;
+}
+
+.product-card-img-user {
+  position: absolute;
+  margin-top: 362px;
+  margin-left: -250px;
+}
+
+.product-calender {
+  position: absolute;
+  margin-top: 360px;
+  margin-left: -350px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #7d7d7d;
+}
+
+.product-user {
+  position: absolute;
+  margin-top: 360px;
+  margin-left: -220px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #7d7d7d;
+}
+
+.product-card-header {
+  margin-top: 55px;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  position: relative;
+}
+
+.product-card-img-stars {
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 290px;
+}
+
+.product-card-img-location {
+  margin-top: -40px;
+  margin-left: 10px;
+  position: absolute;
+}
+
+.product-location {
+  position: absolute;
+  margin-top: -35px;
+  margin-left: 40px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #7d7d7d;
+}
+
+.product-card-price {
+  margin-left: 18px;
+  width: 99px;
+  height: 45px;
+  font-family: "Poppins", sans-serif;
+  font-size: 29px;
+  color: #df6951;
+}
+
+.product-card-old-price {
+  margin-left: 18px;
+  width: 99px;
+  height: 45px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: #7d7d7d;
+  text-decoration: line-through;
+}
+
+.product-card-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.btn-product {
+  border-radius: 7px;
+  background-color: #df6951;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  width: 135px;
+  height: 45px;
+  margin-left: 18px;
+  margin-top: 20px;
+}
