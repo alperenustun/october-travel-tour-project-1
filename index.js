@@ -3,6 +3,7 @@ const servicesLink = document.getElementById("services-link");
 const owerlayPopup = document.getElementById("homepage-hero-ower");
 const contactOwerlay = document.getElementById("contact-owerlay");
 const closeOwerlay = document.getElementById("owerlay-close-btn");
+const navBarPositions = document.getElementById("hero-navbar");
 const scrollOff = document.body;
 
 let isModalOpen = false;
@@ -17,12 +18,12 @@ servicesLink.addEventListener("click", () => {
   }
 });
 function increment() {
+  navBarPositions.style.position = "sticky";
   scrollOff.style.overflowY = "hidden";
-  scrollOff.style.overflowX = "hidden";
   owerlayPopup.style.display = "block";
 }
 closeOwerlay.addEventListener("click", () => {
   scrollOff.style.overflowY = "scroll";
   owerlayPopup.style.display = "none";
-  scrollOff.style.overflowX = "none";
+  navBarPositions.style.position = "static";
 });
