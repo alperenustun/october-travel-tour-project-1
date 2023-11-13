@@ -1,33 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
 
-
-.flex {
+.honeymoon-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 100%;
     }
     
 
-.content {
+.honeymoon-content {
     flex: 1;
     margin:150px;
     height: 100%;
     width: 100%;
-        }
+    }
     
 
-img {
+.honeymoon-img{
     max-width: 100%;
+    min-width: 35%;
     }
 
 
-button{
+.view-packages-button {
     border-radius: 10px;
     background: #DF6951;
     
-    display: flex;
-    width: 176.561px;
-    height: 56.416px;
+    display: flex;  
+    width: 175px;
+    height: 55px;
     padding: 0px 36.566px 9.403px 0px;
+    
     justify-content: center;
     align-items: center;
     
@@ -38,43 +42,44 @@ button{
     }
 
 
-p{
+.honeymoon-page-p{
 
-    width: 583px;
-    height: 103px;
+    width: 575px;
+    height: 100px;
     flex-shrink: 0;
 
+
     color: black;
-    font-family: Poppins;
+    font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
     }
 
-h3{
+.honeymoon-page-h3{
     margin: 0px 0px 0px 0px ;
 
-    width: 583px;
-    height: 142px;
+    width: 800px;
+    height: 150px;
     flex-shrink: 0;
 
     color: #181E4B;
-    font-family: Volkhov;
+    font-family: 'Volkhov', serif;
     font-size: 50px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 71.042px;
+    font-weight: 700px;
+    line-height: 70px;
     }
 
-h4{
+.honeymoon-page-h4{
 
     color: #DF6951;
-    font-family: Poppins;
-    font-size: 18px;
-
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: normal;
     letter-spacing: 1.8px;
     text-transform: uppercase;
