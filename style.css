@@ -11,6 +11,7 @@ li {
   background-image: url("images/homepage-img.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   position: relative;
   overflow: hidden;
 }
@@ -21,26 +22,16 @@ a {
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
-
 /*HEADER*/
 .hero-box {
   max-width: 1280px;
   margin: 0 auto;
-}
-.hero-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1278px;
-  margin: 63px 0;
+  height: 100%;
 }
 .hero-nav-links {
   display: flex;
   align-items: center;
   gap: 50px;
-}
-.nav-link-dropdown {
-  position: relative;
 }
 .contact-link {
   width: 152px;
@@ -118,20 +109,6 @@ a {
   font-weight: 600;
   cursor: pointer;
 }
-.hero-nav-dropdown > a {
-  display: block;
-  margin-top: 20px;
-}
-.hero-nav-dropdown {
-  width: 230px;
-  height: 190px;
-  background-image: url("images/Union.png");
-  background-repeat: no-repeat;
-  padding: 15px 5px;
-  position: absolute;
-  display: none;
-}
-
 .user-pp {
   border: solid 2px white;
   border-radius: 35.997px;
