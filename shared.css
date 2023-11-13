@@ -40,7 +40,7 @@ a {
   border-radius: 10px;
   cursor: pointer;
 }
-.homepage-hero-owerlay{
+.homepage-hero-overlay{
   background-color: rgba(0, 0, 0, 0.315);
   backdrop-filter: blur(4px);
   position: absolute;
@@ -51,7 +51,7 @@ a {
   z-index: 99;
   display: none;
 }
-.hero-owerlay-popup{
+.hero-overlay-popup{
   width: 500px;
   height: 700px;
   border-radius: 12.5px;
@@ -62,23 +62,24 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
-.hero-owerlay-popup p {
+.hero-overlay-popup p {
   color: rgba(0, 0, 0, 0.59);
   font-family: 'Poppins';
   font-size: 12px;
   font-weight: 400;
 }
-.hero-owerlay-popup a {
+.hero-overlay-popup a {
   color: #DF6951;
   font-family: 'Poppins';
   font-size: 13px;
   font-weight: 600;
+  max-width: max-content;
 }
 .popup-head-box {
   display: flex;
   justify-content: space-between;
 }
-.owerlay-popup-head {
+.overlay-popup-head {
   color: #181e4b;
   text-align: center;
   font-family: 'Volkhov', serif;
@@ -88,7 +89,7 @@ a {
   padding-left: 40px;
   padding-top: 25px;
 }
-.owerlay-popup-btnclose{
+.overlay-popup-btnclose{
   background-color: #fff;
   border: none;
   font-size: 16px;
@@ -97,7 +98,7 @@ a {
   border-radius: 10px;
   text-align: center;
 }
-.owerlay-popup-btnclose:hover{
+.overlay-popup-btnclose:hover{
   background-color: #DF6951;
   cursor: pointer;
   color: #fff;

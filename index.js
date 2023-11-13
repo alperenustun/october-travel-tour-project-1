@@ -1,8 +1,8 @@
 const dropDownLinks = document.getElementById("drop-down-links");
 const servicesLink = document.getElementById("services-link");
-const owerlayPopup = document.getElementById("homepage-hero-ower");
-const contactOwerlay = document.getElementById("contact-owerlay");
-const closeOwerlay = document.getElementById("owerlay-close-btn");
+const overlayPopup = document.getElementById("homepage-hero-overlay");
+const contactOwerlay = document.getElementById("contact-overlay");
+const closeOverlay = document.getElementById("overlay-close-btn");
 const navBarPositions = document.getElementById("hero-navbar");
 const scrollOff = document.body;
 
@@ -20,11 +20,11 @@ servicesLink.addEventListener("click", () => {
 function increment() {
   navBarPositions.style.position = "sticky";
   scrollOff.style.overflowY = "hidden";
-  owerlayPopup.style.display = "block";
+  overlayPopup.style.display = "block";
 }
-closeOwerlay.addEventListener("click", () => {
+closeOverlay.addEventListener("click", () => {
   scrollOff.style.overflowY = "scroll";
-  owerlayPopup.style.display = "none";
+  overlayPopup.style.display = "none";
   navBarPositions.style.position = "static";
 });
 
