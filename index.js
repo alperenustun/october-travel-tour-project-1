@@ -27,3 +27,8 @@ closeOwerlay.addEventListener("click", () => {
   owerlayPopup.style.display = "none";
   navBarPositions.style.position = "static";
 });
+
+// const dateSelection = document.querySelector(".inputs-box-date");
+// dateSelection.addEventListener("change", (e) => {
+//   console.log(e.target.value);
+// })

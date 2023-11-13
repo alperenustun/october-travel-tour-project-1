@@ -120,10 +120,11 @@ a {
 .box-input-text{
   border: none;
   font-size: 25px;
+  outline: none;
 }
 .inputs-box-date{
   border: none;
-  font-size: 25px;
+  font-size: 22px;
   width: 150px;
 }
 .selection-box{

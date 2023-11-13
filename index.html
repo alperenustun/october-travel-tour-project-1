@@ -175,7 +175,7 @@
       </div>
     </div>
     <div id="homepage-hero-ower" class="homepage-hero-owerlay">
-      <div class="hero-owerlay-popup">
+      <form class="hero-owerlay-popup">
         <div class="popup-head-box">
           <h3 class="owerlay-popup-head">Build Your Own Package</h3>
           <button id="owerlay-close-btn" class="owerlay-popup-btnclose">
@@ -194,12 +194,7 @@
                 placeholder="Switzerland"
               />
             </div>
-            <div class="box-infoimg">
-              <img
-                src="images/popup-images/popup-info-img.png"
-                alt="info img"
-              />
-            </div>
+            <img src="images/popup-images/popup-info-img.png" alt="info img" />
           </div>
           <div class="inputs-box">
             <div class="inputs-texts-box">
@@ -212,12 +207,7 @@
                 placeholder="Lauterbrunen"
               />
             </div>
-            <div class="box-infoimg">
-              <img
-                src="images/popup-images/popup-info-img.png"
-                alt="info img"
-              />
-            </div>
+            <img src="images/popup-images/popup-info-img.png" alt="info img" />
           </div>
           <a href="#">+ Add destination</a>
           <div class="inputs-box">
@@ -225,7 +215,7 @@
               <p class="date-box-p">Date Range</p>
               <input
                 class="inputs-box-date"
-                type="datetime"
+                type="date"
                 placeholder="Start Date"
               />
             </div>
@@ -323,9 +313,9 @@
           </span>
         </div>
         <div class="popup-button-box">
-          <button class="popup-box-btn">Build Package</button>
+          <input class="popup-box-btn" type="submit" value="Build Package" />
         </div>
-      </div>
+      </form>
     </div>
     <script src="index.js"></script>
   </body>
