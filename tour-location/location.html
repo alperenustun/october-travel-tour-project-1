@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel & Tour</title>
+    <link rel="stylesheet" href="location.css" />
+    <link rel="stylesheet" href="../shared.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Yesteryear&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="location-hero">
+      <div class="hero-box container">
+        <nav id="hero-navbar" class="hero-nav container">
+          <img src="../images/logo.png" alt="Travel Logo" />
+          <ul class="hero-nav-links">
+            <li class="hero-nav-link"><a href="/index.html">Home</a></li>
+            <li class="hero-nav-link"><a href="#">About</a></li>
+            <li class="hero-nav-link">
+              <div class="nav-link-dropdown">
+                <a id="services-link" href="#">Services</a>
+                <div id="drop-down-links" class="hero-nav-dropdown">
+                  <a href="#">Honeymoon Packages</a>
+                  <a href="#">Tours Packages</a>
+                  <a href="#">Musical Events</a>
+                  <a href="#">Build Package</a>
+                </div>
+              </div>
+            </li>
+            <li class="hero-nav-link"><a href="#">Upcomming Packages</a></li>
+          </ul>
+          <a
+            onclick="increment()"
+            id="contact-owerlay"
+            class="contact-link"
+            href="#"
+            >Get in Touch</a
+          >
+        </nav>
+        <div class="location-heading-hero">
+          <h4 class="location-hero-h4">EXPLORE</h4>
+          <h1 class="location-hero-h1">Landscapes</h1>
+        </div>
+      </div>
+    </header>
+    <div class="tour-location">
+        <div class="location-navbar container">
+            <div ><img src="../images/location-images/location-info-logo.png" alt=""><a href="#">Information</a></div>
+            <div ><img src="../images/location-images/locations_calender-logo.png" alt=""><a href="#">Tour Plan</a></div>
+            <div ><img src="../images/location-images/icons_location.png" alt=""><a href="#">Location</a></div>
+            <div ><img src="../images/location-images/location-gallery-logo.png" alt=""><a href="#">Gallery</a></div>
+        </div>
+        <div class="location-container container">
+            <div class="location-box">
+                <h3 class="location-box-h3">Tour Plan</h3>
+                <p class="location-box-p">Qui tempore voluptate qui quia commodi rem praesentium alias et voluptates officia sed molestiae sint et voluptas quos. Qui harum repudiandae galisum dolorem Hic deleniti officiis est sapiente explicabo non eaque corporis aut voluptatum iusto At facere enim id voluptas reprehenderit. Ut voluptas laudantium</p>
+                <div class="location-gps">
+                    <div style="overflow:hidden;max-width:100%;width:710px;height:700px;">
+                        <div id="embed-map-display" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Eskişehir,+Türkiye&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                    <a class="googl-ehtml" href="https://www.bootstrapskins.com/themes" id="make-map-data">premium bootstrap themes</a><style>#embed-map-display img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style>
+                </div>
+                </div>
+                <p class="location-box-p">Sit quasi soluta non temporibus voluptas non necessitatibus tempore sit deleniti praesentium aut velit nostrum ut itaque atque ad expedita veniam. Hic deleniti officiis est sapiente explicabo non eaque corporis aut voluptatum iusto At facere enim id voluptas reprehenderit. Ut voluptas laudantium et molestias voluptatem ex doloremque omnis est ipsum nihil. <br><br> Quo facere eveniet 33 sint rerum est internos impedit sed dignissimos quia. Et rerum deleniti et voluptates saepe qui labore quisquam non accusantium temporibus. Quo velit numquam hic excepturi sequi sed dicta doloribus! In quos possimus quo quibusdam aliquid est culpa porro sed molestiae libero At blanditiis minima a reiciendis fugiat.</p>
+            </div>
+            <form class="location-form">
+                <h2 class="form-box-h2">Book This Tour</h2>
+                <p class="form-box-p">Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto aut magni nesciunt? Quo quidem neque iste expedita est dolo.</p>
+                <div class="form-input-box">
+                    <input class="form-box-input" type="text" placeholder="Name">
+                    <input class="form-box-input" type="email" placeholder="Mail">
+                    <input class="form-box-input" type="email" placeholder="Confirm Email">
+                    <input class="form-box-input" type="tel" maxlength="11" placeholder="Phone">
+                    <input class="form-box-input" type="date" placeholder="dd-mm-yy">
+                    <input class="form-box-input" type="text" placeholder="Number of ticket">
+                    <textarea class="form-box-input" placeholder="Message" name="" id="" cols="30" rows="3"></textarea>
+                </div>
+                <div class="form-buttons-box">
+                    <input class="form-box-btn" type="submit" value="Book Now">
+                    <input class="form-box-btn" type="submit" value="Check Availability">
+                </div>
+            </form>
+            <img class="location-img-1" src="../images/location-images/tour-location-img001.png" alt="Travel & Tour">
+            <img class="location-img-2" src="../images/location-images/tour-location-img002.png" alt="Travel">
+        </div>
+    </div>
+    <div id="homepage-hero-overlay" class="homepage-hero-overlay">
+        <form class="hero-overlay-popup">
+          <div class="popup-head-box">
+            <h3 class="overlay-popup-head">Build Your Own Package</h3>
+            <button id="overlay-close-btn" class="overlay-popup-btnclose">
+              X
+            </button>
+          </div>
+          <div class="popup-input-container">
+            <div class="inputs-box">
+              <div class="inputs-texts-box">
+                <p class="box-p-text">
+                  Enter destination (country, region or city)
+                </p>
+                <input
+                  class="box-input-text"
+                  type="text"
+                  placeholder="Switzerland"
+                />
+              </div>
+              <div class="box-infoimg">
+                <img
+                  src="../images/popup-images/popup-info-img.png"
+                  alt="info img"
+                />
+              </div>
+            </div>
+            <div class="inputs-box">
+              <div class="inputs-texts-box">
+                <p class="box-p-text">
+                  Enter destination (country, region or city)
+                </p>
+                <input
+                  class="box-input-text"
+                  type="text"
+                  placeholder="Lauterbrunen"
+                />
+              </div>
+              <div class="box-infoimg">
+                <img
+                  src="../images/popup-images/popup-info-img.png"
+                  alt="info img"
+                />
+              </div>
+            </div>
+            <a href="#">+ Add destination</a>
+            <div class="inputs-box">
+              <div class="date-box">
+                <p class="date-box-p">Date Range</p>
+                <input
+                  class="inputs-box-date"
+                  type="datetime"
+                  placeholder="Start Date"
+                />
+              </div>
+              <div class="selection-box">
+                <p class="selection-box-p">Guests</p>
+                <select
+                  class="inputs-box-selection"
+                  name="Rezervation"
+                  id="Rezervation-type"
+                >
+                  <option value="">2 adults</option>
+                  <option value="1-adult">1 adult</option>
+                  <option value="2-adults-1-child">2 adults 1 children</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <a href="#">Activities preferences (optional)</a>
+          <div class="popup-checkbox-box">
+            <span>
+              <input type="checkbox" id="checkbox-lbl" />
+              <label for="checkbox-lbl">Culture</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl1" />
+              <label for="checkbox-lbl1">Outdoors</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl2" />
+              <label for="checkbox-lbl2">Relaxing</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl3" />
+              <label for="checkbox-lbl3">Wildlife</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl4" />
+              <label for="checkbox-lbl4">Romantic</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl5" />
+              <label for="checkbox-lbl5">Religious</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl6" />
+              <label for="checkbox-lbl6">Hiking</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl7" />
+              <label for="checkbox-lbl7">Musical</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl8" />
+              <label for="checkbox-lbl8">Shopping</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl9" />
+              <label for="checkbox-lbl9">Business</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl10" />
+              <label for="checkbox-lbl10">Museams</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl11" />
+              <label for="checkbox-lbl11">Party</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl12" />
+              <label for="checkbox-lbl12">Traditions</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl13" />
+              <label for="checkbox-lbl13">Walks</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl14" />
+              <label for="checkbox-lbl14">FIshing</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl15" />
+              <label for="checkbox-lbl15">Cruise</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl16" />
+              <label for="checkbox-lbl16">Guide</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl17" />
+              <label for="checkbox-lbl17">Healthcare</label>
+            </span>
+            <span>
+              <input type="checkbox" id="checkbox-lbl18" />
+              <label for="checkbox-lbl18">Accomodation</label>
+            </span>
+          </div>
+          <div class="popup-button-box">
+            <input class="popup-box-btn" type="submit" value="Build Package" />
+          </div>
+        </form>
+    </div>
+    <script src="../index.js"></script>
+  </body>
+</html>
