@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel & Tour</title>
+    <link rel="stylesheet" href="location.css" />
     <link rel="stylesheet" href="../shared.css" />
-    <link rel="stylesheet" href="about.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -26,7 +26,7 @@
     />
   </head>
   <body>
-    <header class="about-hero">
+    <header class="location-hero">
       <div class="hero-box container">
         <nav id="hero-navbar" class="hero-nav container">
           <img src="../images/logo.png" alt="Travel Logo" />
@@ -37,222 +37,195 @@
               <div class="nav-link-dropdown">
                 <a id="services-link" href="#">Services</a>
                 <div id="drop-down-links" class="hero-nav-dropdown">
-                  <a href="/tour-location/location.html">Honeymoon Packages</a>
-                  <a href="/tour-location/location.html">Tours Packages</a>
-                  <a href="/tour-location/location.html">Musical Events</a>
-                  <a href="/tour-location/location.html">Build Package</a>
+                  <a href="#">Honeymoon Packages</a>
+                  <a href="#">Tours Packages</a>
+                  <a href="#">Musical Events</a>
+                  <a href="#">Build Package</a>
                 </div>
               </div>
             </li>
             <li class="hero-nav-link"><a href="#">Upcomming Packages</a></li>
           </ul>
-          <a onclick="increment()"
-          id="contact-owerlay" class="contact-link" href="#">Get in Touch</a>
+          <a
+            onclick="increment()"
+            id="contact-owerlay"
+            class="contact-link"
+            href="#"
+            >Get in Touch</a
+          >
         </nav>
-        <div class="about-heading-hero">
-          <h4 class="about-hero-h4">READ</h4>
-          <h1 class="about-hero-h1">About Us</h1>
+        <div class="location-heading-hero">
+          <h4 class="location-hero-h4">EXPLORE</h4>
+          <h1 class="location-hero-h1">Landscapes</h1>
         </div>
       </div>
     </header>
-    <div class="about-context">
-      <div class="about-context-box container">
-        <div class="about-context-hero">
-          <h5 class="about-context-h5">PROMOTION</h5>
-          <h1 class="about-context-h1">
-            We Provide You Best<br />
-            Europe Sightseeing Tours
-          </h1>
-          <p class="about-context-p">
-            Et labore harum non nobis ipsum eum molestias mollitia et
-            corporis<br />
-            praesentium a laudantium internos. Non quis eius quo eligendi
-            corrupti<br />
-            et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus<br />
-            illum aut optio quibusdam!
-          </p>
-          <button class="about-context-btn">View Packages</button>
+    <div class="tour-location">
+      <div class="location-navbar container">
+        <div id="location-navbar-box0" class="location-navbar-box">
+          <img src="../images/location-images/location-info-logo.png" alt="" />
+          <a href="#">Information</a>
         </div>
-        <img
-          src="../images/about-images/about-context-img01.png"
-          alt="about tag image"
-        />
-      </div>
-    </div>
-    <div class="about-video-hero">
-      <video loop autoplay>
-        <source
-          src="../images/about-images/about-video01.mp4"
-          type="video/mp4"
-        />
-      </video>
-      <span class="about-video-tint"></span>
-      <h1 class="about-video-h1">Wanderlust</h1>
-    </div>
-    <div class="about-statistic">
-      <div class="about-statistic-hero container">
-        <img
-          src="../images/about-images/about-trend-img.png"
-          alt="about tag image"
-        />
-        <div class="about-statistic-box">
-          <div class="about-statistic-text">
-            <h5 class="about-statistic-h5">TREND</h5>
-            <h1 class="about-statistic-h1">Our Popular Tour Plans</h1>
-            <p class="about-statistic-p">
-              Et labore harum non nobis ipsum eum molestias mollitia et
-              corporis<br />
-              praesentium a laudantium. Et labore harum non nobis ipsum eum<br />
-              molestias mollitia et corporis praesentium a laudantium.
-            </p>
-          </div>
-          <div class="about-statistics-gruop">
-            <div class="statistic-gruop-box">
-              <img
-                src="../images/about-images/about-statistic-img01.png"
-                alt=""
-              />
-              <h5 class="statistic-gruop-text">VACATIONS</h5>
-            </div>
-            <div class="statistic-gruop-box">
-              <img
-                src="../images/about-images/about-statistic-img02.png"
-                alt=""
-              />
-              <h5 class="statistic-gruop-text">HONEYMOON</h5>
-            </div>
-            <div class="statistic-gruop-box">
-              <img
-                src="../images/about-images/about-statistic-img03.png"
-                alt=""
-              />
-              <h5 class="statistic-gruop-text gruop-text3">MUSICAL EVENTS</h5>
-            </div>
-          </div>
+        <div id="location-navbar-box1" class="location-navbar-box">
           <img
-            class="shell-img"
-            src="../images/about-images/about-trend-shell-img.png"
-            alt="about tag image"
+            src="../images/location-images/locations_calender-logo.png"
+            alt=""
           />
+          <a href="#">Tour Plan</a>
+        </div>
+        <div id="location-navbar-box2" class="location-navbar-box">
+          <img src="../images/location-images/icons_location.png" alt="" />
+          <a href="#">Location</a>
+        </div>
+        <div id="location-navbar-box3" class="location-navbar-box">
+          <img
+            src="../images/location-images/location-gallery-logo.png"
+            alt=""
+          /><a href="#">Gallery</a>
         </div>
       </div>
-    </div>
-    <div class="about-info">
-      <div class="about-info-box">
-        <h4 class="about-info-h4">EXPLORE MORE</h4>
-        <h1 class="about-info-h1">Our International Packages</h1>
-        <div class="about-info-container">
-          <div class="about-city-box">
-            <img
-              src="../images/about-images/about-city-img-barcelona.png"
-              alt="city tag image"
-            />
-            <div class="about-city-text">
-              <h6>Barcelona</h6>
-              <h6>$840</h6>
+      <div class="location-container container">
+        <div class="location-box">
+          <h3 class="location-box-h3">Tour Plan</h3>
+          <p class="location-box-p">
+            Qui tempore voluptate qui quia commodi rem praesentium alias et
+            voluptates officia sed molestiae sint et voluptas quos. Qui harum
+            repudiandae galisum dolorem Hic deleniti officiis est sapiente
+            explicabo non eaque corporis aut voluptatum iusto At facere enim id
+            voluptas reprehenderit. Ut voluptas laudantium
+          </p>
+          <div class="location-gps">
+            <div
+              style="
+                overflow: hidden;
+                max-width: 100%;
+                width: 710px;
+                height: 700px;
+              "
+            >
+              <div
+                id="embed-map-display"
+                style="height: 100%; width: 100%; max-width: 100%"
+              >
+                <iframe
+                  style="height: 100%; width: 100%; border: 0"
+                  frameborder="0"
+                  src="https://www.google.com/maps/embed/v1/place?q=Eskişehir,+Türkiye&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+                >
+                </iframe>
+              </div>
+              <a
+                class="googl-ehtml"
+                href="https://www.bootstrapskins.com/themes"
+                id="make-map-data"
+                >premium bootstrap themes</a
+              >
             </div>
           </div>
-          <div class="about-city-box">
-            <img
-              src="../images/about-images/about-city-img-switzerland.png"
-              alt="city tag image"
-            />
-            <div class="about-city-text">
-              <h6>Switzerland</h6>
-              <h6>$840</h6>
-            </div>
-          </div>
-          <div class="about-city-box city-box-img">
-            <img
-              src="../images/about-images/about-city-img-riodejenero.png"
-              alt="city tag image"
-            />
-            <div class="about-city-text">
-              <h6>Rio de Jenero</h6>
-              <h6>$840</h6>
-            </div>
-          </div>
-          <div class="about-city-box">
-            <img
-              src="../images/about-images/about-city-img-barcelona02.png"
-              alt="city tag image"
-            />
-            <div class="about-city-text">
-              <h6>Barcelona</h6>
-              <h6>$840</h6>
-            </div>
-          </div>
-          <div class="about-city-box">
-            <img
-              src="../images/about-images/about-city-img-tommorowland.png"
-              alt="city tag image"
-            />
-            <div class="about-city-text">
-              <h6>Tommorow Land</h6>
-              <h6>$840</h6>
-            </div>
-          </div>
-          <div class="about-city-box">
-            <img
-              src="../images/about-images/about-city-img-losangelas.png"
-              alt="city tag image"
-            />
-            <div class="about-city-text">
-              <h6>Los Angelas</h6>
-              <h6>$840</h6>
-            </div>
-          </div>
-          <div class="about-city-box">
-            <img
-              src="../images/about-images/about-city-img-tommorowland.png"
-              alt="city tag image"
-            />
-            <div class="about-city-text">
-              <h6>India</h6>
-              <h6>$840</h6>
-            </div>
-          </div>
-          <div class="about-city-box">
-            <img
-              src="../images/about-images/about-city-img-barcelona03.png"
-              alt="city tag image"
-            />
-            <div class="about-city-text">
-              <h6>Barcelona</h6>
-              <h6>$840</h6>
-            </div>
-          </div>
-          <div class="about-city-box">
-            <img
-              src="../images/about-images/about-city-img-maldives.png"
-              alt="city tag image"
-            />
-            <div class="about-city-text">
-              <h6>Maldives</h6>
-              <h6>$840</h6>
-            </div>
-          </div>
-          <div class="about-city-box">
-            <img
-              src="../images/about-images/about-city-img-barcelona04.png"
-              alt="city tag image"
-            />
-            <div class="about-city-text">
-              <h6>Barcelona</h6>
-              <h6>$840</h6>
-            </div>
-          </div>
-          <div class="about-city-box">
-            <img
-              src="../images/about-images/about-city-img-losangelas.png"
-              alt="city tag image"
-            />
-            <div class="about-city-text">
-              <h6>Pakistan</h6>
-              <h6>$840</h6>
-            </div>
-          </div>
+          <p class="location-box-p">
+            Sit quasi soluta non temporibus voluptas non necessitatibus tempore
+            sit deleniti praesentium aut velit nostrum ut itaque atque ad
+            expedita veniam. Hic deleniti officiis est sapiente explicabo non
+            eaque corporis aut voluptatum iusto At facere enim id voluptas
+            reprehenderit. Ut voluptas laudantium et molestias voluptatem ex
+            doloremque omnis est ipsum nihil. <br /><br />
+            Quo facere eveniet 33 sint rerum est internos impedit sed
+            dignissimos quia. Et rerum deleniti et voluptates saepe qui labore
+            quisquam non accusantium temporibus. Quo velit numquam hic excepturi
+            sequi sed dicta doloribus! In quos possimus quo quibusdam aliquid
+            est culpa porro sed molestiae libero At blanditiis minima a
+            reiciendis fugiat.
+          </p>
         </div>
+        <form class="location-form">
+          <h2 class="form-box-h2">Book This Tour</h2>
+          <p class="form-box-p">
+            Ex optio sequi et quos praesentium in nostrum labore nam rerum iusto
+            aut magni nesciunt? Quo quidem neque iste expedita est dolo.
+          </p>
+          <div class="form-input-box">
+            <div>
+              <img src="../images/location-images/loca-input-user.png" alt="" />
+              <input class="form-box-input" type="text" placeholder="Name" />
+            </div>
+            <div>
+              <img
+                src="../images/location-images/loca-input-email.png"
+                alt=""
+              />
+              <input class="form-box-input" type="email" placeholder="Mail" />
+            </div>
+            <div>
+              <img
+                src="../images/location-images/loca-input-email2.png"
+                alt=""
+              />
+              <input
+                class="form-box-input"
+                type="email"
+                placeholder="Confirm Email"
+              />
+            </div>
+            <div>
+              <img
+                src="../images/location-images/loca-input-phone.png"
+                alt=""
+              />
+              <input
+                class="form-box-input"
+                type="tel"
+                maxlength="11"
+                placeholder="Phone"
+              />
+            </div>
+            <input
+              class="form-box-input form-date-box"
+              type="date"
+              placeholder="dd-mm-yy"
+            />
+            <div>
+              <img src="../images/location-images/loca-input-tag.png" alt="" />
+              <input
+                class="form-box-input"
+                type="text"
+                placeholder="Number of ticket"
+              />
+            </div>
+            <div>
+              <img
+                class="form-textarea-img"
+                src="../images/location-images/loca-input-masage.png"
+                alt=""
+              />
+              <textarea
+                class="form-box-input"
+                placeholder="Message"
+                name=""
+                id=""
+                cols="30"
+                rows="2"
+              ></textarea>
+            </div>
+          </div>
+          <div class="form-buttons-box">
+            <input class="form-box-btn" type="submit" value="Book Now" />
+            <input
+              class="form-box-btn"
+              type="submit"
+              value="Check Availability"
+            />
+          </div>
+        </form>
+        <img
+          class="location-img-1"
+          src="../images/location-images/tour-location-img001.png"
+          alt="Travel & Tour"
+        />
+        <img
+          class="location-img-2"
+          src="../images/location-images/tour-location-img002.png"
+          alt="Travel"
+        />
       </div>
     </div>
     <div id="homepage-hero-overlay" class="homepage-hero-overlay">
