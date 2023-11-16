@@ -57,6 +57,9 @@
   padding: 55px 0;
   background: #f8f8f8;
 }
+#location-navbar-box2{
+  background-color: #fff;
+}
 .location-navbar > div > a {
   font-size: 20px;
   color: #343434;
