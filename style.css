@@ -235,3 +235,71 @@ a {
   font-weight: 400;
   line-height: 20px;
 }
+.europe-context {
+  margin: auto 200px;
+  width: 639px;
+  height: 380.416px;
+}
+.promotion-h6 {
+  color: #df6951;
+  font-family: "Poppins", serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+.sightseeing-h5 {
+  width: 639px;
+  height: 142px;
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 71.042px;
+}
+.europe-text {
+  width: 574px;
+  height: 103px;
+  font-family: "Poppins", serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+.packages-button {
+  display: flex;
+  width: 176.561px;
+  height: 56.416px;
+  padding: 0px 36.566px 9.403px 0px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10.447px;
+  border-radius: 10px;
+  background: #df6951;
+  box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
+  border: 2px solid #fff;
+  color: #fff;
+}
+.destination-full {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  margin-top: 86px;
+  margin-left: 200px;
+  border-radius: 10px;
+  gap: 50px;
+  position: relative;
+}
+.destination-4 {
+  z-index: 2;
+}
+.illustration-image-1 {
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 1700px;
+  left: 82%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
