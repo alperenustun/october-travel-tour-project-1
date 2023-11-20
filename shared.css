@@ -191,7 +191,6 @@ a {
 /* ALPEREN */
 
 .hamburger-icon{
-  width: 26px;
   cursor: pointer;
   display: none;
 }
@@ -219,13 +218,13 @@ a {
 }
 @media (max-width : 675px){
   .hero-nav-links{
-    gap: 20px;
+    gap: 10px;
   }
   .hero-nav-links  a {
     font-size: 12px;
   }
   .contact-link {
     padding: 10px 15px;
-    font-size: 12px;
+    font-size: 8px;
   }
 }
