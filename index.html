@@ -1,84 +1,388 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Travel & Tour</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Open+Sans:wght@600&family=Oswald&family=Poppins:wght@400;500&family=Volkhov&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <div class="container">
-    <div class="product-header">
-      <h4 class="header-1">TRENDY</h4>
-      <h2 class="header-2">Our Trending Tour Packages</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel & Tour</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="homepage-hero">
+      <div class="hero-box container">
+        <nav id="hero-navbar" class="hero-nav container">
+          <img src="images/logo.png" alt="Travel Logo" />
+          <ul class="hero-nav-links">
+            <li class="hero-nav-link"><a href="#">Home</a></li>
+            <li class="hero-nav-link"><a href="about/about.html">About</a></li>
+            <li class="hero-nav-link">
+              <div class="nav-link-dropdown">
+                <a id="services-link" href="#">Services</a>
+                <div id="drop-down-links" class="hero-nav-dropdown">
+                  <a href="/tour-location/location.html">Honeymoon Packages</a>
+                  <a href="/tour-location/location.html">Tours Packages</a>
+                  <a href="/tour-location/location.html">Musical Events</a>
+                  <a href="/tour-location/location.html">Build Package</a>
+                </div>
+              </div>
+            </li>
+            <li class="hero-nav-link"><a href="#">Upcomming Packages</a></li>
+          </ul>
+          <a
+            onclick="increment()"
+            id="contact-owerlay"
+            class="contact-link"
+            href="#"
+            >Get in Touch</a
+          >
+        </nav>
+        <div class="homepage-context">
+          <img src="images/Vector-1.png" alt="logo" />
+          <h1 class="context-p">
+            No matter where<br />
+            you’re going to, we’ll<br />
+            take you there
+          </h1>
+          <div class="context-selections">
+            <input class="context-input" type="text" placeholder="Where to?" />
+            <img src="images/line.png" alt="line" />
+            <select
+              class="context-selection"
+              name="Travel Type"
+              id="travel-type"
+            >
+              <option value="">Travel Type</option>
+              <option value="bus">Bus</option>
+              <option value="train">Train</option>
+              <option value="aeroplane">Aeroplane</option>
+            </select>
+            <img src="images/line001.png" alt="line" />
+            <select class="context-selection" name="Duration" id="duration">
+              <option value="">Duration</option>
+              <option value="one-day">1 Day</option>
+              <option value="one-week">1 Week</option>
+              <option value="one-month">1 Month</option>
+            </select>
+            <button class="context-buton">Submit</button>
+          </div>
+          <div class="context-user">
+            <img class="user-pp pp-a" src="images/bugsbunny.jpg" alt="img" />
+            <img class="user-pp pp-b" src="images/pp-1.jpg" alt="img" />
+            <img class="user-pp pp-c" src="images/pp-2.png" alt="img" />
+            <img class="user-pp pp-d" src="images/pp-3.png" alt="img" />
+            <img class="user-pp pp-e" src="images/pp-4.jpg" alt="img" />
+            <img class="user-pp pp-f" src="images/pp-5.jpg" alt="img" />
+            <div class="user-plus">
+              <h2>+</h2>
+            </div>
+            <p class="user-p">
+              2,500 people booked Tommorowland Event in last 24 hours
+            </p>
+          </div>
+        </div>
+      </div>
+      <img class="hero-scroll" src="images/Scroll.png" alt="scroll" />
+    </header>
+    <div class="travel-tour-section">
+      <div class="travel-tour-partners">
+        <ul>
+          <li class="travel-tour-li">
+            <img src="images/emirates.png" />
+          </li>
+          <li class="travel-tour-li">
+            <img src="images/Trivago-logo.png" />
+          </li>
+          <li class="travel-tour-li"><img src="images/airbnb-logo.png" /></li>
+          <li class="travel-tour-li">
+            <img src="images/Turkish_Airlines_logo.png" />
+          </li>
+          <li class="travel-tour-li"><img src="images/swiss.png" /></li>
+        </ul>
+      </div>
     </div>
-    <div class="product-card">
-      <div class="product-card-switzerland">
-        <img src="images/switzerland.png" alt="" class="product-card-img">
-        <img src="images/switzerland-1.png" alt="" class="product-card-img-eclipse">
-        <img src="images/calender.png" alt="" class="product-card-img-calender">
-        <span class="product-calender">8 days</span>
-        <img src="images/user.png" alt="" class="product-card-img-user">
-        <span class="product-user">25 people Going</span>
-        <h3 class="product-card-header">Switzerland</h3>
-        <img src="images/stars.png" alt="" class="product-card-img-stars">
-        <img src="images/location.png" alt="" class="product-card-img-location">
-        <span class="product-location">Europe</span>
-        <span class="product-card-price">1,000 $</span>
-        <span class="product-card-old-price">1,200 $</span>
-        <p class="product-card-text">Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id
-          quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium
-          internos.</p>
-        <button class="btn-product">Explore Now</button>
-
+    <div class="book-trip">
+      <div class="book-trip-context">
+        <div class="book-context-heading">
+          <h4 class="book-context-h4">Fast & Easy</h4>
+          <h2 class="book-context-h2">
+            Get Your Favourite<br />
+            Resort Bookings
+          </h2>
+        </div>
+        <div class="book-context-values">
+          <div class="book-context-value">
+            <img
+              class="book-values-img"
+              src="images/value-image-1.png"
+              alt="value-image-1"
+            />
+            <div class="book-values-text">
+              <h5 class="book-text-h5">Choose Destination</h5>
+              <p class="book-text-p">
+                Lorem ipsum dolor sit amet, consectetur<br />
+                adipiscing elit. Urna, tortor tempus.
+              </p>
+            </div>
+          </div>
+          <div class="book-context-value">
+            <img
+              class="book-values-img"
+              src="images/value-image-2.png"
+              alt="value-image-2"
+            />
+            <div class="book-values-text">
+              <h5 class="book-text-h5">Check Availability</h5>
+              <p class="book-text-p">
+                Lorem ipsum dolor sit amet, consectetur<br />
+                adipiscing elit. Urna, tortor tempus.
+              </p>
+            </div>
+          </div>
+          <div class="book-context-value">
+            <img
+              class="book-values-img"
+              src="images/value-image-3.png"
+              alt="value-image-3"
+            />
+            <div class="book-values-text">
+              <h5 class="book-text-h5">Let’s Go</h5>
+              <p class="book-text-p">
+                Lorem ipsum dolor sit amet, consectetur<br />
+                adipiscing elit. Urna, tortor tempus.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="product-card-amazon">
-        <img src="images/amazon.png" alt="">
-        <img src="images/brazil.png" alt="" class="product-card-img-eclipse">
-        <img src="images/calender.png" alt="" class="product-card-img-calender">
-        <span class="product-calender">8 days</span>
-        <img src="images/user.png" alt="" class="product-card-img-user">
-        <span class="product-user">30 people Going</span>
-        <h3 class="product-card-header">Amazon</h3>
-        <img src="images/stars.png" alt="" class="product-card-img-stars">
-        <img src="images/location.png" alt="" class="product-card-img-location">
-        <span class="product-location">Brazil</span>
-        <span class="product-card-price">1,223 $</span>
-        <span class="product-card-old-price">1,200 $</span>
-        <p class="product-card-text">Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id
-          quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium
-          internos.</p>
-        <button class="btn-product">Explore Now</button>
-
-
-      </div>
-      <div class="product-card-giza">
-        <img src="images/giza.png" alt="">
-        <img src="images/eygpt.png" alt="" class="product-card-img-eclipse">
-        <img src="images/calender.png" alt="" class="product-card-img-calender">
-        <span class="product-calender">8 days</span>
-        <img src="images/user.png" alt="" class="product-card-img-user">
-        <span class="product-user">155 people Going</span>
-        <h3 class="product-card-header">Giza</h3>
-        <img src="images/stars.png" alt="" class="product-card-img-stars">
-        <img src="images/location.png" alt="" class="product-card-img-location">
-        <span class="product-location">Eygpt</span>
-        <span class="product-card-price">1,200 $</span>
-        <span class="product-card-old-price">1,200 $</span>
-        <p class="product-card-text">Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id
-          quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium
-          internos.</p>
-        <button class="btn-product">Explore Now</button>
+      <div class="book-trip-illustration">
+        <img
+          class="illustration-img"
+          src="images/book-trip-img.png"
+          alt="Illustration-image"
+        />
       </div>
     </div>
-  </div>
-</body>
-
+    <div id="homepage-hero-overlay" class="homepage-hero-overlay">
+      <form class="hero-overlay-popup">
+        <div class="popup-head-box">
+          <h3 class="overlay-popup-head">Build Your Own Package</h3>
+          <button id="overlay-close-btn" class="overlay-popup-btnclose">
+            X
+          </button>
+        </div>
+        <div class="popup-input-container">
+          <div class="inputs-box">
+            <div class="inputs-texts-box">
+              <p class="box-p-text">
+                Enter destination (country, region or city)
+              </p>
+              <input
+                class="box-input-text"
+                type="text"
+                placeholder="Switzerland"
+              />
+            </div>
+            <img src="images/popup-images/popup-info-img.png" alt="info img" />
+          </div>
+          <div class="inputs-box">
+            <div class="inputs-texts-box">
+              <p class="box-p-text">
+                Enter destination (country, region or city)
+              </p>
+              <input
+                class="box-input-text"
+                type="text"
+                placeholder="Lauterbrunen"
+              />
+            </div>
+            <img src="images/popup-images/popup-info-img.png" alt="info img" />
+          </div>
+          <a href="#">+ Add destination</a>
+          <div class="inputs-box">
+            <div class="date-box">
+              <p class="date-box-p">Date Range</p>
+              <input
+                class="inputs-box-date"
+                type="date"
+                placeholder="Start Date"
+              />
+            </div>
+            <div class="selection-box">
+              <p class="selection-box-p">Guests</p>
+              <select
+                class="inputs-box-selection"
+                name="Rezervation"
+                id="Rezervation-type"
+              >
+                <option value="">2 adults</option>
+                <option value="1-adult">1 adult</option>
+                <option value="2-adults-1-child">2 adults 1 children</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <a href="#">Activities preferences (optional)</a>
+        <div class="popup-checkbox-box">
+          <span>
+            <input type="checkbox" id="checkbox-lbl" />
+            <label for="checkbox-lbl">Culture</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl1" />
+            <label for="checkbox-lbl1">Outdoors</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl2" />
+            <label for="checkbox-lbl2">Relaxing</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl3" />
+            <label for="checkbox-lbl3">Wildlife</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl4" />
+            <label for="checkbox-lbl4">Romantic</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl5" />
+            <label for="checkbox-lbl5">Religious</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl6" />
+            <label for="checkbox-lbl6">Hiking</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl7" />
+            <label for="checkbox-lbl7">Musical</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl8" />
+            <label for="checkbox-lbl8">Shopping</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl9" />
+            <label for="checkbox-lbl9">Business</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl10" />
+            <label for="checkbox-lbl10">Museams</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl11" />
+            <label for="checkbox-lbl11">Party</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl12" />
+            <label for="checkbox-lbl12">Traditions</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl13" />
+            <label for="checkbox-lbl13">Walks</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl14" />
+            <label for="checkbox-lbl14">FIshing</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl15" />
+            <label for="checkbox-lbl15">Cruise</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl16" />
+            <label for="checkbox-lbl16">Guide</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl17" />
+            <label for="checkbox-lbl17">Healthcare</label>
+          </span>
+          <span>
+            <input type="checkbox" id="checkbox-lbl18" />
+            <label for="checkbox-lbl18">Accomodation</label>
+          </span>
+        </div>
+        <div class="popup-button-box">
+          <input class="popup-box-btn" type="submit" value="Build Package" />
+        </div>
+      </form>
+    </div>
+    <div class="product-container">
+      <div class="product-header">
+        <h4 class="header-1">TRENDY</h4>
+        <h2 class="header-2">Our Trending Tour Packages</h2>
+      </div>
+      <div class="product-card">
+        <div class="product-card-switzerland">
+          <img src="images/switzerland.png" alt="" class="product-card-img">
+          <img src="images/switzerland-1.png" alt="" class="product-card-img-eclipse">
+          <img src="images/calender.png" alt="" class="product-card-img-calender">
+          <span class="product-calender">8 days</span>
+          <img src="images/user.png" alt="" class="product-card-img-user">
+          <span class="product-user">25 people Going</span>
+          <h3 class="product-card-header">Switzerland</h3>
+          <img src="images/stars.png" alt="" class="product-card-img-stars">
+          <img src="images/location.png" alt="" class="product-card-img-location">
+          <span class="product-location">Europe</span>
+          <span class="product-card-price">1,000 $</span>
+          <span class="product-card-old-price">1,200 $</span>
+          <p class="product-card-text">Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id
+            quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium
+            internos.</p>
+          <button class="btn-product">Explore Now</button>
+  
+        </div>
+        <div class="product-card-amazon">
+          <img src="images/amazon.png" alt="">
+          <img src="images/brazil.png" alt="" class="product-card-img-eclipse">
+          <img src="images/calender.png" alt="" class="product-card-img-calender">
+          <span class="product-calender">8 days</span>
+          <img src="images/user.png" alt="" class="product-card-img-user">
+          <span class="product-user">30 people Going</span>
+          <h3 class="product-card-header">Amazon</h3>
+          <img src="images/stars.png" alt="" class="product-card-img-stars">
+          <img src="images/location.png" alt="" class="product-card-img-location">
+          <span class="product-location">Brazil</span>
+          <span class="product-card-price">1,223 $</span>
+          <span class="product-card-old-price">1,200 $</span>
+          <p class="product-card-text">Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id
+            quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium
+            internos.</p>
+          <button class="btn-product">Explore Now</button>
+  
+  
+        </div>
+        <div class="product-card-giza">
+          <img src="images/giza.png" alt="">
+          <img src="images/eygpt.png" alt="" class="product-card-img-eclipse">
+          <img src="images/calender.png" alt="" class="product-card-img-calender">
+          <span class="product-calender">8 days</span>
+          <img src="images/user.png" alt="" class="product-card-img-user">
+          <span class="product-user">155 people Going</span>
+          <h3 class="product-card-header">Giza</h3>
+          <img src="images/stars.png" alt="" class="product-card-img-stars">
+          <img src="images/location.png" alt="" class="product-card-img-location">
+          <span class="product-location">Eygpt</span>
+          <span class="product-card-price">1,200 $</span>
+          <span class="product-card-old-price">1,200 $</span>
+          <p class="product-card-text">Nam exercitationem commodi et ducimus quia in dolore animi sit mollitia amet id
+            quod eligendi. Et labore harum non nobis ipsum eum molestias mollitia et corporis praesentium a laudantium
+            internos.</p>
+          <button class="btn-product">Explore Now</button>
+        </div>
+      </div>
+    </div>
+  
+    <script src="index.js"></script>
+  </body>
 </html>
