@@ -4,9 +4,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-li {
-  list-style-type: none;
-}
 .homepage-hero {
   background-image: url("images/homepage-img.jpeg");
   background-size: cover;
@@ -15,31 +12,11 @@ li {
   position: relative;
   overflow: hidden;
 }
-a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-}
 /*HEADER*/
 .hero-box {
   max-width: 1280px;
   margin: 0 auto;
   height: 100%;
-}
-.hero-nav-links {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-.contact-link {
-  width: 152px;
-  height: 58px;
-  background-color: #df6951;
-  padding: 20px 27px;
-  border-radius: 10px;
-  cursor: pointer;
 }
 .homepage-context {
   margin: 168px 0;
@@ -234,4 +211,7 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+}
+@media (max-width : 850px){
+  
 }

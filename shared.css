@@ -25,16 +25,20 @@ a {
   align-items: center;
   padding-top: 63px;
   z-index: 150;
-  top: 0;
+  gap: 20px;
 }
 .hero-nav-links {
   display: flex;
   align-items: center;
   gap: 50px;
 }
+.nav-links-box{
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+}
 .contact-link {
-  width: 152px;
-  height: 58px;
   background-color: #df6951;
   padding: 20px 27px;
   border-radius: 10px;
@@ -182,4 +186,26 @@ a {
 }
 .nav-link-dropdown {
   position: relative;
+}
+@media (max-width : 850px) {
+  .hero-nav{
+    flex-direction: column;
+    padding-top: 30px;
+    gap: 5px;
+  }
+  .nav-links-box{
+    width: 100%;
+  }
+}
+@media (max-width : 675px){
+  .hero-nav-links{
+    gap: 20px;
+  }
+  .hero-nav-links  a {
+    font-size: 12px;
+  }
+  .contact-link {
+    padding: 10px 15px;
+    font-size: 12px;
+  }
 }
