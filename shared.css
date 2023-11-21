@@ -210,6 +210,9 @@ a {
   .hamburger-icon{
     display: block;
   }
+  .hero-overlay-popup{
+    margin-top: 175px;
+  }
 }
 @media (max-width : 675px){
   .hero-nav-links{
@@ -221,5 +224,20 @@ a {
   .contact-link {
     padding: 10px 15px;
     font-size: 8px;
+  }
+  .hero-overlay-popup{
+    width: 380px;
+    height: 800px;
+  }
+  .box-input-text{
+    font-size: 20px;
+  }
+  .inputs-box-date{
+    font-size: 17px;
+    width: 120px;
+  }
+  .inputs-box-selection{
+    font-size: 20px;
+    width: 125px;
   }
 }
