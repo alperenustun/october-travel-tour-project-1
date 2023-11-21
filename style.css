@@ -145,20 +145,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  gap: 15px;
   margin: 0 auto;
   max-width: 1400px;
 }
 
 .travel-tour-partners img {
-  width: 100px;
+  width: 100%;
+  max-height: 50px;
 }
 .book-trip {
-  display: grid;
-  grid-template-columns: 1.5fr 2fr;
-  max-width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1350px;
   margin: auto;
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 .book-context-values {
   height: 285px;
@@ -210,6 +211,13 @@
   font-weight: 400;
   line-height: 20px;
 }
+@media (max-width : 1170px) {
+  .book-trip{
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+}
 @media (max-width : 850px){
   .context-p{
     font-size: 48px;
@@ -230,7 +238,7 @@
     translate: 0 0;
   }
 }
-@media (max-width : 600px) {
+@media (max-width : 670px) {
   .context-p{
     font-size: 30px;
     line-height: 40px;
@@ -248,5 +256,8 @@
   }
   .context-selection{
     padding: 0 5px;
+  }
+  .illustration-img{
+    width: 100%;
   }
 }
