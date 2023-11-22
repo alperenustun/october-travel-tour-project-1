@@ -1,12 +1,4 @@
 /* GENEL STİLLER*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-li {
-  list-style-type: none;
-}
 .homepage-hero {
   background-image: url("images/homepage-img.jpeg");
   background-size: cover;
@@ -15,42 +7,21 @@ li {
   position: relative;
   overflow: hidden;
 }
-a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-}
 /*HEADER*/
 .hero-box {
   max-width: 1280px;
   margin: 0 auto;
   height: 100%;
 }
-.hero-nav-links {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-.contact-link {
-  width: 152px;
-  height: 58px;
-  background-color: #df6951;
-  padding: 20px 27px;
-  border-radius: 10px;
-  cursor: pointer;
-}
 .homepage-context {
-  margin: 168px 0;
+  margin: 168px 20px;
 }
 .homepage-context > img {
   width: 79px;
   height: 16px;
 }
 .context-p {
-  width: 631px;
-  height: 244px;
+  padding-bottom: 50px;
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 58.506px;
@@ -58,10 +29,9 @@ a {
   line-height: 67.988px;
 }
 .context-selections {
-  width: 844px;
-  height: 102px;
+  max-width: 844px;
   border-radius: 5.224px;
-  padding: 0 30px;
+  padding: 21px 30px;
   gap: 40px;
   display: flex;
   align-items: center;
@@ -69,6 +39,11 @@ a {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(17.6px);
   -webkit-backdrop-filter: blur(17.6px);
+}
+.context-selections-box{
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .context-input,
 .context-input::placeholder,
@@ -87,7 +62,6 @@ a {
   border: none;
   background: rgba(243, 243, 243, 0);
   width: 120px;
-  height: 28px;
   outline: none;
 }
 .context-selection {
@@ -122,23 +96,24 @@ a {
   width: 36px;
   height: 36px;
   display: inline-block;
-  translate: -90px -10px;
+  translate: -90px -12px;
+  text-align: center;
 }
 .user-plus > h2 {
-  padding: 5px 11px;
+  padding: 3px 0 0 2px;
   font-weight: 500;
 }
 .context-user {
-  width: 1000px;
-  height: 50px;
-  margin: 20px;
+  margin: 20px 0;
+  align-items: center;
+  display: flex;
 }
 .user-p {
   display: inline-block;
   font-weight: 500;
   font-size: 12.537px;
   line-height: 37.611px;
-  translate: -70px -10px;
+  translate: -70px 0px;
 }
 .pp-b {
   translate: -15px 0;
@@ -170,20 +145,21 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  gap: 15px;
   margin: 0 auto;
   max-width: 1400px;
 }
 
 .travel-tour-partners img {
-  width: 100px;
+  width: 100%;
+  max-height: 50px;
 }
 .book-trip {
-  display: grid;
-  grid-template-columns: 1.5fr 2fr;
-  max-width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1350px;
   margin: auto;
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 .book-context-values {
   height: 285px;
@@ -352,5 +328,12 @@ a {
   }
   .illustration-img{
     width: 100%;
+  }
+}
+@media (max-width : 400px){
+  .context-input,
+  .context-input::placeholder,
+  .context-selection{
+    font-size: 8px;
   }
 }
