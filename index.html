@@ -30,29 +30,36 @@
       <div class="hero-box container">
         <nav id="hero-navbar" class="hero-nav container">
           <img src="images/logo.png" alt="Travel Logo" />
-          <ul class="hero-nav-links">
-            <li class="hero-nav-link"><a href="#">Home</a></li>
-            <li class="hero-nav-link"><a href="about/about.html">About</a></li>
-            <li class="hero-nav-link">
-              <div class="nav-link-dropdown">
-                <a id="services-link" href="#">Services</a>
-                <div id="drop-down-links" class="hero-nav-dropdown">
-                  <a href="/tour-location/location.html">Honeymoon Packages</a>
-                  <a href="/tour-location/location.html">Tours Packages</a>
-                  <a href="/tour-location/location.html">Musical Events</a>
-                  <a href="/tour-location/location.html">Build Package</a>
+          <div class="nav-links-box">
+            <ul class="hero-nav-links">
+              <li class="hero-nav-link"><a href="#">Home</a></li>
+              <li class="hero-nav-link">
+                <a href="about/about.html">About</a>
+              </li>
+              <li class="hero-nav-link">
+                <div class="nav-link-dropdown">
+                  <a id="services-link" href="#">Services</a>
+                  <div id="drop-down-links" class="hero-nav-dropdown">
+                    <a href="/tour-location/location.html"
+                      >Honeymoon Packages</a
+                    >
+                    <a href="/tour-location/location.html">Tours Packages</a>
+                    <a href="/tour-location/location.html">Musical Events</a>
+                    <a href="/tour-location/location.html">Build Package</a>
+                  </div>
                 </div>
-              </div>
-            </li>
-            <li class="hero-nav-link"><a href="#">Upcomming Packages</a></li>
-          </ul>
-          <a
-            onclick="increment()"
-            id="contact-owerlay"
-            class="contact-link"
-            href="#"
-            >Get in Touch</a
-          >
+              </li>
+              <li class="hero-nav-link"><a href="#">Upcomming Packages</a></li>
+            </ul>
+            <a
+              onclick="increment()"
+              id="contact-owerlay"
+              class="contact-link"
+              href="#"
+              >Get in Touch</a
+            >
+          </div>
+          <img class="hamburger-icon" src="images/menu-burger.png" />
         </nav>
         <div class="homepage-context">
           <img src="images/Vector-1.png" alt="logo" />
@@ -62,28 +69,35 @@
             take you there
           </h1>
           <div class="context-selections">
-            <input class="context-input" type="text" placeholder="Where to?" />
-            <img src="images/line.png" alt="line" />
-            <select
-              class="context-selection"
-              name="Travel Type"
-              id="travel-type"
-            >
-              <option value="">Travel Type</option>
-              <option value="bus">Bus</option>
-              <option value="train">Train</option>
-              <option value="aeroplane">Aeroplane</option>
-            </select>
-            <img src="images/line001.png" alt="line" />
-            <select class="context-selection" name="Duration" id="duration">
-              <option value="">Duration</option>
-              <option value="one-day">1 Day</option>
-              <option value="one-week">1 Week</option>
-              <option value="one-month">1 Month</option>
-            </select>
+            <div class="context-selections-box">
+              <input
+                class="context-input"
+                type="text"
+                placeholder="Where to?"
+              />
+              <img src="images/line.png" alt="line" />
+              <select
+                class="context-selection"
+                name="Travel Type"
+                id="travel-type"
+              >
+                <option value="">Travel Type</option>
+                <option value="bus">Bus</option>
+                <option value="train">Train</option>
+                <option value="aeroplane">Aeroplane</option>
+              </select>
+              <img src="images/line001.png" alt="line" />
+              <select class="context-selection" name="Duration" id="duration">
+                <option value="">Duration</option>
+                <option value="one-day">1 Day</option>
+                <option value="one-week">1 Week</option>
+                <option value="one-month">1 Month</option>
+              </select>
+            </div>
             <button class="context-buton">Submit</button>
           </div>
           <div class="context-user">
+            <div class="context-user-box">
             <img class="user-pp pp-a" src="images/bugsbunny.jpg" alt="img" />
             <img class="user-pp pp-b" src="images/pp-1.jpg" alt="img" />
             <img class="user-pp pp-c" src="images/pp-2.png" alt="img" />
@@ -93,6 +107,7 @@
             <div class="user-plus">
               <h2>+</h2>
             </div>
+          </div>
             <p class="user-p">
               2,500 people booked Tommorowland Event in last 24 hours
             </p>
@@ -122,11 +137,11 @@
       <img class="honeymoon-img" src="images/Illustration.png" alt="Image" />
       <div class="honeymoon-page-content">
         <h4 class="honeymoon-page-h4">HONEYMOON SPECIALS</h4>
-        <h3 class="honeymoon-page-h3">Our Romantic Tropical Destination</h3>
+        <h3 class="honeymoon-page-h3">Our Romantic Tropical<br> Destination</h3>
         <p class="honeymoon-page-p">
-          Et labore harum non nobis ipsum eum molestias mollitia et corporis
-          praesentium a laudantium internos. non quis eius quo eligendi corrupti
-          et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus
+          Et labore harum non nobis ipsum eum molestias mollitia et corporis<br>
+          praesentium a laudantium internos. non quis eius quo eligendi corrupti<br>
+          et fugiat nulla qui soluta recusandae in maxime quasi aut ducimus<br>
           illum aut optio quibusdam!
         </p>
         <a class="view-packages-button">View Packages</a>
