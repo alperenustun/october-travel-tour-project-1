@@ -170,9 +170,9 @@
   justify-content: space-between;
 }
 .book-context-value {
-  width: 395px;
   display: flex;
   justify-content: space-between;
+  gap: 15px;
 }
 .book-context-h4 {
   color: #df6951;
@@ -187,14 +187,10 @@
   font-size: 50px;
   font-weight: 700;
   line-height: normal;
-  text-transform: capitalize;
 }
 .book-values-img {
   width: 47px;
   height: 48px;
-}
-.book-values-text {
-  width: 327px;
 }
 .book-text-h5 {
   color: #5e6282;
@@ -214,10 +210,11 @@
 
 .honeymoon-container {
   display: flex;
-  justify-content: space-between;
+  gap: 165px;
   align-items: center;
-  max-width: 1400px;
+  max-width: 1620px;
   margin: 0 auto;
+  padding: 75px 20px;
 }
 
 .honeymoon-content {
@@ -228,45 +225,34 @@
 }
 
 .honeymoon-img {
-  width: 500px;
+  max-width: 650px;
 }
 
 .view-packages-button {
+  display: inline-block;
+  padding: 20px 25px;
   border-radius: 10px;
   background: #df6951;
-  display: flex;
-  width: 175px;
-  height: 55px;
-  justify-content: center;
-  align-items: center;
   color: white;
-  flex-shrink: 0;
   cursor: pointer;
 }
 
 .honeymoon-page-p {
-  width: 575px;
-  height: 100px;
-  flex-shrink: 0;
   color: black;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 26px;
-  margin: 20px 0;
+  padding: 20px 0;
 }
 
 .honeymoon-page-h3 {
-  margin: 0px 0px 0px 0px;
-  width: 800px;
-  height: 150px;
-  flex-shrink: 0;
   color: #181e4b;
   font-family: "Volkhov", serif;
   font-size: 50px;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: 70px;
 }
 
@@ -275,16 +261,22 @@
   font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-style: normal;
-  font-weight: 700px;
+  font-weight: 700;
   line-height: normal;
   letter-spacing: 1.8px;
-  text-transform: uppercase;
 }
 @media (max-width : 1170px) {
   .book-trip{
     flex-direction: column;
     align-items: center;
     gap: 50px;
+  }
+  .honeymoon-container{
+    flex-direction: column;
+    gap: 100px;
+  }
+  .honeymoon-img{
+    width: 100%;
   }
 }
 @media (max-width : 850px){
@@ -305,6 +297,10 @@
   }
   .user-p{
     translate: 0 0;
+  }
+  .honeymoon-page-h3{
+    font-size: 40px;
+    line-height: 45px;
   }
 }
 @media (max-width : 670px) {
@@ -335,5 +331,8 @@
   .context-input::placeholder,
   .context-selection{
     font-size: 8px;
+  }
+  .book-text-p{
+    font-size: 12px;
   }
 }
