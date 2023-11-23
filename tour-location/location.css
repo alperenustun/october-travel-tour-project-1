@@ -168,6 +168,12 @@
 .form-box-input::placeholder {
   color: rgba(0, 0, 0, 0.26);
 }
+.location-gps{
+  overflow: hidden;
+  max-width: 100%;
+  width: 710px;
+  height: 700px;
+}
 @media (max-width : 1400px){
   .tour-location{
     padding: 0 20px;
@@ -214,6 +220,7 @@
   }
   .location-gps{
     width: 400px;
+    height: 600px;
   }
 }
 @media (max-width: 450px) {
@@ -225,6 +232,27 @@
     font-size: 12px;
   }
   .location-gps{
-    width: 345px;
+    width: 290px;
+    height: 350px;
+  }
+  .form-input-box > div,
+  .form-date-box {
+    width: 210px;
+  }
+  .form-box-input{
+    padding: 25px 10px;
+    font-size: 12px ;
+  }
+  .tour-location{
+    padding: 0;
+  }
+  .location-img-2{
+    width: 100%;
+  }
+  .location-container{
+    padding: 10px;
+  }
+  .location-box{
+    padding: 35px 5px;
   }
 }
