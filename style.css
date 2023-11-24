@@ -8,6 +8,9 @@
   overflow: hidden;
 }
 /*HEADER*/
+html{
+  scroll-behavior: smooth;
+}
 .hero-box {
   max-width: 1280px;
   margin: 0 auto;
@@ -136,6 +139,10 @@
   bottom: -210px;
   width: 392px;
   height: 392px;
+  transition: 0.2s ease-out;
+}
+.hero-scroll-a{
+  transition: 0.2s ease-out;
 }
 .travel-tour-section {
   padding: 30px 0;
@@ -331,6 +338,9 @@
   .context-input::placeholder,
   .context-selection{
     font-size: 8px;
+  }
+  .context-input{
+    width: 50px;
   }
   .book-text-p{
     font-size: 12px;
