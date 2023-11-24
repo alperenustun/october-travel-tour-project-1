@@ -237,7 +237,7 @@
   }
   .form-input-box > div,
   .form-date-box {
-    width: 210px;
+    width: 100%;
   }
   .form-box-input{
     padding: 25px 10px;
