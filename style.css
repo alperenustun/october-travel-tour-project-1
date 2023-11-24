@@ -339,6 +339,9 @@ html{
   .context-selection{
     font-size: 8px;
   }
+  .context-input{
+    width: 50px;
+  }
   .book-text-p{
     font-size: 12px;
   }
