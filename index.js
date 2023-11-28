@@ -9,6 +9,8 @@ const locationNavbarBoxes = document.querySelectorAll(".location-navbar-box");
 const hamburgerIcon = document.querySelector(".hamburger-icon");
 const navbar = document.querySelector(".nav-links-box");
 
+const packageForm = document.querySelector(".popup-input-container");
+
 for (let i = 0; i < locationNavbarBoxes.length; i++) {
   locationNavbarBoxes[i].addEventListener("click", () => {
     for (let j = 0; j < locationNavbarBoxes.length; j++) {
@@ -40,20 +42,48 @@ closeOverlay.addEventListener("click", () => {
   navBarPositions.style.position = "static";
 });
 
-
 let isNavbarOpen = false;
 
 hamburgerIcon.addEventListener("click", () => {
-  if(!isNavbarOpen){
+  if (!isNavbarOpen) {
     navbar.style.display = "flex";
     isNavbarOpen = !isNavbarOpen;
   } else {
     navbar.style.display = "none";
     isNavbarOpen = !isNavbarOpen;
   }
-})
+});
 
 // const dateSelection = document.querySelector(".inputs-box-date");
 // dateSelection.addEventListener("change", (e) => {
 //   console.log(e.target.value);
 // })
+
+// const newArray = [
+//   {
+//     id: 1,
+//     country: "Germany",
+//     city: "Berlin",
+//     date: "10-09-2024",
+//     preferences: ["Business", "Cruise", "Traditions"]
+//   },
+//   {
+//     id: 2,
+//     country: "Syria",
+//     city: "Homs",
+//     date: "05-02-2024",
+//     preferences: ["Hiking", "Romantic"]
+//   },
+// ];
+
+
+// packageForm.addEventListener("submit", (event) => {
+//   event.preventDefault();
+//   const inputElements = ["box-input-text", ]
+
+//   let formData = new FormData(this);
+//   console.log(formData)
+//   console.log(event)
+// })
+
+// console.log(newArray);
