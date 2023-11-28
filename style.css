@@ -242,12 +242,15 @@ a {
   margin: auto;
 }
 .footer-group {
-  justify-content: center;
+  justify-content: space-between;
   display: flex;
   margin: auto;
+  max-width: 1250px;
   gap: 100px;
 }
-
+.footer-group-171{
+  text-align: start;
+}
 .travel-text {
   width: 213px;
   color: #757095;
@@ -294,6 +297,9 @@ a {
 .right-list-item {
   color: #181433;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .Newsletter-h5 {
   font-size: 21px;
@@ -323,6 +329,7 @@ a {
   line-height: 26px;
   letter-spacing: -0.32px;
   opacity: 0.5;
+  text-align: start;
 }
 .footer-background {
   position: absolute;
