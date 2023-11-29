@@ -162,30 +162,30 @@ html{
   max-height: 50px;
 }
 .homepage-services-container{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 22px;
+  text-align: center;
+  padding: 150px 0;
 }
 .services-container-h5{
   color:#DF6951;
   font-family: 'Poppins';
   font-size: 18px;
   font-weight: 600;
+  padding-bottom: 25px;
 }
 .services-container-h2{
   color: #181E4B;
   font-family: 'Volkhov', sans-serif;
   font-size: 50px;
   font-weight: 700;
+  padding-bottom: 5px;
 }
 .services-container-box{
-  height: 314px;
   display: grid;
   grid-template-columns: repeat(auto-fit , 260px);
   gap: 110px;
   max-width: 1490px;
+  justify-content: center;
+  margin: auto;
 }
 .services-box{
   display: flex;
@@ -197,6 +197,7 @@ html{
 .services-box-images{
   position: relative;
   margin: 20px 0;
+  z-index: 1;
 }
 .images-span{
   border-radius: 18px 5px 10px 5px;
