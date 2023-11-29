@@ -397,6 +397,66 @@ html{
   font-family: 'Volkhov',sans-serif;
   color: #fff;
 }
+.homepage-packages-container{
+  text-align: center;
+  margin: 150px 0;
+}
+.homepage-packages-container-box{
+  display: grid;
+  max-width: 1500px;
+  grid-template-columns: repeat(auto-fit , minmax(250px , 400px));
+  gap: 100px;
+  margin: auto;
+  justify-content: center;
+}
+.homepage-packages-box{
+  text-align: left;
+}
+.packages-box-images{
+  position: relative;
+  margin: 50px 0 30px 0;
+}
+.packages-box-image {
+  width: 100%;
+}
+.packages-box-flag-img{
+  position: absolute;
+  left:10px;
+  bottom: -75px;
+}
+.packages-spans-box{
+  display: flex;
+  gap: 35px;
+}
+.packages-box-spans{
+  display: flex;
+  gap: 5px;
+  align-items: end;
+  padding-bottom: 10px;
+}
+.packages-box-title{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+.packages-box-pricings{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 4px;
+}
+.packages-box-p{
+  padding-bottom: 25px;
+}
+.packages-box-button{
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #DF6951;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Poppins',sans-serif;
+}
 @media (max-width : 1170px) {
   .book-trip{
     flex-direction: column;
