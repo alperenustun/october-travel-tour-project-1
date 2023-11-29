@@ -365,6 +365,38 @@ html{
   line-height: normal;
   letter-spacing: 1.8px;
 }
+.liberty-statue-banner{
+  position: relative;
+  max-height: 400px;
+}
+.liberty-statue-img{
+  width: 100%;
+  max-height: 400px;
+}
+.liberty-statue-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 1150px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.liberty-statue-box-text{
+  position: relative;
+}
+.liberty-statue-line-img{
+  position: absolute;
+  bottom: -30px;
+  right: -80px;
+}
+.liberty-statue-h2{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Volkhov',sans-serif;
+  color: #fff;
+}
 @media (max-width : 1170px) {
   .book-trip{
     flex-direction: column;
@@ -377,6 +409,15 @@ html{
   }
   .honeymoon-img{
     width: 100%;
+  }
+  .liberty-statue-box{
+    width: 830px;
+  }
+  .liberty-statue-h2{
+    font-size: 35px;
+  }
+  .liberty-statue-line-img{
+    width: 245px;
   }
 }
 @media (max-width : 850px){
@@ -402,6 +443,16 @@ html{
     font-size: 40px;
     line-height: 45px;
   }
+  .liberty-statue-box{
+    width: 625px;
+  }
+  .liberty-statue-h2{
+    font-size: 25px;
+  }
+  .liberty-statue-line-img{
+    width: 190px;
+    height: 25px;
+  }
 }
 @media (max-width : 670px) {
   .context-p{
@@ -425,6 +476,18 @@ html{
   .illustration-img{
     width: 100%;
   }
+  .liberty-statue-box{
+    width: 350px;
+  }
+  .liberty-statue-h2{
+    font-size: 18px;
+  }
+  .liberty-statue-line-img{
+    width: 100px;
+    height: 15px;
+    bottom: -10px;
+    right: -15px;
+  }
 }
 @media (max-width : 400px){
   .context-input,
@@ -437,5 +500,15 @@ html{
   }
   .book-text-p{
     font-size: 12px;
+  }
+  .liberty-statue-box{
+    width: 250px;
+  }
+  .liberty-statue-h2{
+    font-size: 12px;
+  }
+  .liberty-statue-line-img{
+    width: 75px;
+    height: 12px;
   }
 }
