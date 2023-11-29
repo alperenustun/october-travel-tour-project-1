@@ -246,9 +246,8 @@ a {
   display: flex;
   margin: auto;
   max-width: 1250px;
-  gap: 100px;
 }
-.footer-group-171{
+.footer-group-171 {
   text-align: start;
 }
 .travel-text {
@@ -277,6 +276,10 @@ a {
   font-weight: 700;
   padding-top: 10px;
 }
+.company-group a {
+  color: inherit;
+  text-decoration: none;
+}
 .destinations-nav-list {
   color: #181433;
   font-size: 16px;
@@ -287,12 +290,16 @@ a {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 12px;
+  gap: 18px;
 }
 .destinations-h5 {
   font-size: 21px;
   font-weight: 700;
   padding-top: 10px;
+}
+.destination-group a {
+  color: inherit;
+  text-decoration: none;
 }
 .right-list-item {
   color: #181433;
@@ -307,28 +314,40 @@ a {
   line-height: 24px;
   padding-top: 10px;
 }
-.email.address {
-  width: 389px;
+.email-address {
+  width: 250px;
+  height: 42px;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: -0.32px;
+  background: #eef;
+  border: 2px solid transparent;
+  color: #181433;
+  opacity: 0.3;
 }
 .email-button {
   display: flex;
 }
 .subscribe {
   width: 149px;
+  height: 42px;
   border-radius: 10px;
   background: #df6951;
-  box-shadow: 0px 20px 35px 0px rgba(223, 105, 81, 0.15);
-}
-.right-list-text {
+  border: 2px solid #df6951;
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 26px;
   letter-spacing: -0.32px;
-  opacity: 0.5;
+}
+.right-list-text {
+  color: #181433;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.32px;
+  opacity: 0.6;
   text-align: start;
 }
 .footer-background {
