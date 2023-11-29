@@ -399,7 +399,7 @@ html{
 }
 .homepage-packages-container{
   text-align: center;
-  margin: 150px 0;
+  margin: 150px 20px;
 }
 .homepage-packages-container-box{
   display: grid;
@@ -438,6 +438,7 @@ html{
   display: flex;
   justify-content: space-between;
   padding-bottom: 5px;
+  align-items: end;
 }
 .packages-box-pricings{
   display: flex;
@@ -456,6 +457,53 @@ html{
   font-size: 13px;
   font-weight: 600;
   font-family: 'Poppins',sans-serif;
+}
+.packages-h5{
+  color: #DF6951;
+  font-size: 18px;
+  font-family: 'Poppins',serif;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+.packages-h2{
+  color: #181e4b;
+  font-family: 'Volkhov',sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 71px;
+}
+.packages-box-spans > p{
+  font-size: 17px;
+  color: #7d7d7d;
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+.packages-box-title > h4{
+  color:#2f2f2f;
+  font-size: 29px;
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+.packages-box-pricings > h4{
+  color: #DF6951;
+  font-size: 29px;
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+.packages-box-pricings > h5{
+  color: #7d7d7d;
+  font-family: 'Poppins';
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+.packages-box-p{
+  color: black;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24.5px;
+  letter-spacing: 0.61px;
 }
 @media (max-width : 1170px) {
   .book-trip{
@@ -570,5 +618,11 @@ html{
   .liberty-statue-line-img{
     width: 75px;
     height: 12px;
+  }
+  .packages-box-title > h4{
+    font-size: 18px;
+  }
+  .packages-box-spans > p{
+    font-size: 12px;
   }
 }
