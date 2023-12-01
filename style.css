@@ -1,12 +1,4 @@
 /* GENEL STİLLER*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-li {
-  list-style-type: none;
-}
 .homepage-hero {
   background-image: url("images/homepage-img.jpeg");
   background-size: cover;
@@ -15,42 +7,24 @@ li {
   position: relative;
   overflow: hidden;
 }
-a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 17px;
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-}
 /*HEADER*/
+html{
+  scroll-behavior: smooth;
+}
 .hero-box {
   max-width: 1280px;
   margin: 0 auto;
   height: 100%;
 }
-.hero-nav-links {
-  display: flex;
-  align-items: center;
-  gap: 50px;
-}
-.contact-link {
-  width: 152px;
-  height: 58px;
-  background-color: #df6951;
-  padding: 20px 27px;
-  border-radius: 10px;
-  cursor: pointer;
-}
 .homepage-context {
-  margin: 168px 0;
+  margin: 168px 20px;
 }
 .homepage-context > img {
   width: 79px;
   height: 16px;
 }
 .context-p {
-  width: 631px;
-  height: 244px;
+  padding-bottom: 50px;
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 58.506px;
@@ -58,10 +32,9 @@ a {
   line-height: 67.988px;
 }
 .context-selections {
-  width: 844px;
-  height: 102px;
+  max-width: 844px;
   border-radius: 5.224px;
-  padding: 0 30px;
+  padding: 21px 30px;
   gap: 40px;
   display: flex;
   align-items: center;
@@ -69,6 +42,11 @@ a {
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(17.6px);
   -webkit-backdrop-filter: blur(17.6px);
+}
+.context-selections-box{
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 .context-input,
 .context-input::placeholder,
@@ -87,7 +65,6 @@ a {
   border: none;
   background: rgba(243, 243, 243, 0);
   width: 120px;
-  height: 28px;
   outline: none;
 }
 .context-selection {
@@ -122,23 +99,24 @@ a {
   width: 36px;
   height: 36px;
   display: inline-block;
-  translate: -90px -10px;
+  translate: -90px -12px;
+  text-align: center;
 }
 .user-plus > h2 {
-  padding: 5px 11px;
+  padding: 3px 0 0 2px;
   font-weight: 500;
 }
 .context-user {
-  width: 1000px;
-  height: 50px;
-  margin: 20px;
+  margin: 20px 0;
+  align-items: center;
+  display: flex;
 }
 .user-p {
   display: inline-block;
   font-weight: 500;
   font-size: 12.537px;
   line-height: 37.611px;
-  translate: -70px -10px;
+  translate: -70px 0px;
 }
 .pp-b {
   translate: -15px 0;
@@ -161,6 +139,10 @@ a {
   bottom: -210px;
   width: 392px;
   height: 392px;
+  transition: 0.2s ease-out;
+}
+.hero-scroll-a{
+  transition: 0.2s ease-out;
 }
 .travel-tour-section {
   padding: 30px 0;
@@ -170,20 +152,114 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  gap: 15px;
   margin: 0 auto;
   max-width: 1400px;
 }
 
 .travel-tour-partners img {
+  width: 100%;
+  max-height: 50px;
+}
+.homepage-services-container{
+  text-align: center;
+  padding: 150px 0;
+}
+.services-container-h5{
+  color:#DF6951;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+.services-container-h2{
+  color: #181E4B;
+  font-family: 'Volkhov', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.services-container-box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit , 260px);
+  gap: 110px;
+  max-width: 1490px;
+  justify-content: center;
+  margin: auto;
+}
+.services-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.services-box-images{
+  position: relative;
+  margin: 20px 0;
+  z-index: 1;
+}
+.images-span{
+  border-radius: 18px 5px 10px 5px;
+  width: 50px;
+  height: 49px;
+  background: #FFF1DA;
+  position: absolute;
+  z-index: -1;
+}
+.span-1{
+ right: -15px;
+ bottom: -10px;
+}
+.span-2{
+  top: 13px;
+  left: -7px;
+}
+.span-3{
+  right: -17px;
+  bottom: -8px;
+}
+.span-4{
+  right: -14px;
+  bottom: 0;
+}
+.services-box-h4{
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #1E1D4C;
+  text-align: center;
+}
+.services-box-p{
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 500;
+  line-height: 26px;
+}
+.service-box-shadow{
+  border-radius: 36px;
+  box-shadow: 0px 1.85185px 3.14815px 0px rgba(0, 0, 0, 0.00), 0px 8.14815px 6.51852px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852px 25.48148px 0px rgba(0, 0, 0, 0.01), 0px 64.81481px 46.85185px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+  padding: 20px 0;
+  position: relative;
+  background: #fff;
+}
+.services-box-span{
   width: 100px;
+  height: 100px;
+  background: #DF6951;
+  border-radius: 30px;
+  position: absolute;
+  left: -40px;
+  bottom: -35px;
+  z-index: -1;
 }
 .book-trip {
-  display: grid;
-  grid-template-columns: 1.5fr 2fr;
-  max-width: 1250px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1350px;
   margin: auto;
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 .book-context-values {
   height: 285px;
@@ -194,9 +270,9 @@ a {
   justify-content: space-between;
 }
 .book-context-value {
-  width: 395px;
   display: flex;
   justify-content: space-between;
+  gap: 15px;
 }
 .book-context-h4 {
   color: #df6951;
@@ -211,14 +287,10 @@ a {
   font-size: 50px;
   font-weight: 700;
   line-height: normal;
-  text-transform: capitalize;
 }
 .book-values-img {
   width: 47px;
   height: 48px;
-}
-.book-values-text {
-  width: 327px;
 }
 .book-text-h5 {
   color: #5e6282;
@@ -234,6 +306,204 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+}
+
+.honeymoon-container {
+  display: flex;
+  gap: 165px;
+  align-items: center;
+  max-width: 1620px;
+  margin: 0 auto;
+  padding: 75px 20px;
+}
+
+.honeymoon-content {
+  flex: 1;
+  margin: 150px;
+  height: 100%;
+  width: 100%;
+}
+
+.honeymoon-img {
+  max-width: 650px;
+}
+
+.view-packages-button {
+  display: inline-block;
+  padding: 20px 25px;
+  border-radius: 10px;
+  background: #df6951;
+  color: white;
+  cursor: pointer;
+}
+
+.honeymoon-page-p {
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 20px 0;
+}
+
+.honeymoon-page-h3 {
+  color: #181e4b;
+  font-family: "Volkhov", serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.honeymoon-page-h4 {
+  color: #df6951;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.8px;
+}
+.liberty-statue-banner{
+  position: relative;
+  max-height: 400px;
+}
+.liberty-statue-img{
+  width: 100%;
+  max-height: 400px;
+}
+.liberty-statue-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 1150px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.liberty-statue-box-text{
+  position: relative;
+}
+.liberty-statue-line-img{
+  position: absolute;
+  bottom: -30px;
+  right: -80px;
+}
+.liberty-statue-h2{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Volkhov',sans-serif;
+  color: #fff;
+}
+.homepage-packages-container{
+  text-align: center;
+  margin: 150px 20px;
+}
+.homepage-packages-container-box{
+  display: grid;
+  max-width: 1500px;
+  grid-template-columns: repeat(auto-fit , minmax(250px , 400px));
+  gap: 100px;
+  margin: auto;
+  justify-content: center;
+}
+.homepage-packages-box{
+  text-align: left;
+}
+.packages-box-images{
+  position: relative;
+  margin: 50px 0 30px 0;
+}
+.packages-box-image {
+  width: 100%;
+}
+.packages-box-flag-img{
+  position: absolute;
+  left:10px;
+  bottom: -75px;
+}
+.packages-spans-box{
+  display: flex;
+  gap: 35px;
+}
+.packages-box-spans{
+  display: flex;
+  gap: 5px;
+  align-items: end;
+  padding-bottom: 10px;
+}
+.packages-box-title{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  align-items: end;
+}
+.packages-box-pricings{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 4px;
+}
+.packages-box-p{
+  padding-bottom: 25px;
+}
+.packages-box-button{
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #DF6951;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Poppins',sans-serif;
+}
+.packages-h5{
+  color: #DF6951;
+  font-size: 18px;
+  font-family: 'Poppins',serif;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+.packages-h2{
+  color: #181e4b;
+  font-family: 'Volkhov',sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 71px;
+}
+.packages-box-spans > p{
+  font-size: 17px;
+  color: #7d7d7d;
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+.packages-box-title > h4{
+  color:#2f2f2f;
+  font-size: 29px;
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+.packages-box-pricings > h4{
+  color: #DF6951;
+  font-size: 29px;
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+.packages-box-pricings > h5{
+  color: #7d7d7d;
+  font-family: 'Poppins';
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+.packages-box-p{
+  color: black;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24.5px;
+  letter-spacing: 0.61px;
 }
 .homepage-footer-body {
   font-family: "Manrope";
@@ -373,4 +643,125 @@ a {
 .footer-page-line > hr {
   width: 100%;
   height: 2px;
+}
+@media (max-width : 1170px) {
+  .book-trip{
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .honeymoon-container{
+    flex-direction: column;
+    gap: 100px;
+  }
+  .honeymoon-img{
+    width: 100%;
+  }
+  .liberty-statue-box{
+    width: 830px;
+  }
+  .liberty-statue-h2{
+    font-size: 35px;
+  }
+  .liberty-statue-line-img{
+    width: 245px;
+  }
+}
+@media (max-width : 850px){
+  .context-p{
+    font-size: 48px;
+    line-height: 57px;
+  }
+  .context-selections{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .context-buton{
+    width: 100%;
+  }
+  .context-user{
+    flex-direction: column;
+    align-items: start;
+  }
+  .user-p{
+    translate: 0 0;
+  }
+  .honeymoon-page-h3{
+    font-size: 40px;
+    line-height: 45px;
+  }
+  .liberty-statue-box{
+    width: 625px;
+  }
+  .liberty-statue-h2{
+    font-size: 25px;
+  }
+  .liberty-statue-line-img{
+    width: 190px;
+    height: 25px;
+  }
+}
+@media (max-width : 670px) {
+  .context-p{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .context-selections-box{
+    gap: 0;
+  }
+  .context-input,
+  .context-input::placeholder,
+  .context-selection{
+    font-size: 16px;
+  }
+  .context-input{
+    width: 80px;
+  }
+  .context-selection{
+    padding: 0 5px;
+  }
+  .illustration-img{
+    width: 100%;
+  }
+  .liberty-statue-box{
+    width: 350px;
+  }
+  .liberty-statue-h2{
+    font-size: 18px;
+  }
+  .liberty-statue-line-img{
+    width: 100px;
+    height: 15px;
+    bottom: -10px;
+    right: -15px;
+  }
+}
+@media (max-width : 400px){
+  .context-input,
+  .context-input::placeholder,
+  .context-selection{
+    font-size: 8px;
+  }
+  .context-input{
+    width: 50px;
+  }
+  .book-text-p{
+    font-size: 12px;
+  }
+  .liberty-statue-box{
+    width: 250px;
+  }
+  .liberty-statue-h2{
+    font-size: 12px;
+  }
+  .liberty-statue-line-img{
+    width: 75px;
+    height: 12px;
+  }
+  .packages-box-title > h4{
+    font-size: 18px;
+  }
+  .packages-box-spans > p{
+    font-size: 12px;
+  }
 }
