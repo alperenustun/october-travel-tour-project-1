@@ -161,6 +161,99 @@ html{
   width: 100%;
   max-height: 50px;
 }
+.homepage-services-container{
+  text-align: center;
+  padding: 150px 0;
+}
+.services-container-h5{
+  color:#DF6951;
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+.services-container-h2{
+  color: #181E4B;
+  font-family: 'Volkhov', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.services-container-box{
+  display: grid;
+  grid-template-columns: repeat(auto-fit , 260px);
+  gap: 110px;
+  max-width: 1490px;
+  justify-content: center;
+  margin: auto;
+}
+.services-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.services-box-images{
+  position: relative;
+  margin: 20px 0;
+  z-index: 1;
+}
+.images-span{
+  border-radius: 18px 5px 10px 5px;
+  width: 50px;
+  height: 49px;
+  background: #FFF1DA;
+  position: absolute;
+  z-index: -1;
+}
+.span-1{
+ right: -15px;
+ bottom: -10px;
+}
+.span-2{
+  top: 13px;
+  left: -7px;
+}
+.span-3{
+  right: -17px;
+  bottom: -8px;
+}
+.span-4{
+  right: -14px;
+  bottom: 0;
+}
+.services-box-h4{
+  font-size: 20px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #1E1D4C;
+  text-align: center;
+}
+.services-box-p{
+  font-size: 16px;
+  text-align: center;
+  font-family: 'Poppins';
+  font-weight: 500;
+  line-height: 26px;
+}
+.service-box-shadow{
+  border-radius: 36px;
+  box-shadow: 0px 1.85185px 3.14815px 0px rgba(0, 0, 0, 0.00), 0px 8.14815px 6.51852px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 38.51852px 25.48148px 0px rgba(0, 0, 0, 0.01), 0px 64.81481px 46.85185px 0px rgba(0, 0, 0, 0.02), 0px 100px 80px 0px rgba(0, 0, 0, 0.02);
+  padding: 20px 0;
+  position: relative;
+  background: #fff;
+}
+.services-box-span{
+  width: 100px;
+  height: 100px;
+  background: #DF6951;
+  border-radius: 30px;
+  position: absolute;
+  left: -40px;
+  bottom: -35px;
+  z-index: -1;
+}
 .book-trip {
   display: flex;
   justify-content: space-between;
@@ -272,6 +365,146 @@ html{
   line-height: normal;
   letter-spacing: 1.8px;
 }
+.liberty-statue-banner{
+  position: relative;
+  max-height: 400px;
+}
+.liberty-statue-img{
+  width: 100%;
+  max-height: 400px;
+}
+.liberty-statue-box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 1150px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.liberty-statue-box-text{
+  position: relative;
+}
+.liberty-statue-line-img{
+  position: absolute;
+  bottom: -30px;
+  right: -80px;
+}
+.liberty-statue-h2{
+  font-size: 50px;
+  font-weight: 700;
+  font-family: 'Volkhov',sans-serif;
+  color: #fff;
+}
+.homepage-packages-container{
+  text-align: center;
+  margin: 150px 20px;
+}
+.homepage-packages-container-box{
+  display: grid;
+  max-width: 1500px;
+  grid-template-columns: repeat(auto-fit , minmax(250px , 400px));
+  gap: 100px;
+  margin: auto;
+  justify-content: center;
+}
+.homepage-packages-box{
+  text-align: left;
+}
+.packages-box-images{
+  position: relative;
+  margin: 50px 0 30px 0;
+}
+.packages-box-image {
+  width: 100%;
+}
+.packages-box-flag-img{
+  position: absolute;
+  left:10px;
+  bottom: -75px;
+}
+.packages-spans-box{
+  display: flex;
+  gap: 35px;
+}
+.packages-box-spans{
+  display: flex;
+  gap: 5px;
+  align-items: end;
+  padding-bottom: 10px;
+}
+.packages-box-title{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  align-items: end;
+}
+.packages-box-pricings{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-bottom: 4px;
+}
+.packages-box-p{
+  padding-bottom: 25px;
+}
+.packages-box-button{
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: #DF6951;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: 'Poppins',sans-serif;
+}
+.packages-h5{
+  color: #DF6951;
+  font-size: 18px;
+  font-family: 'Poppins',serif;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+.packages-h2{
+  color: #181e4b;
+  font-family: 'Volkhov',sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 71px;
+}
+.packages-box-spans > p{
+  font-size: 17px;
+  color: #7d7d7d;
+  font-weight: 400;
+  font-family: 'Poppins';
+}
+.packages-box-title > h4{
+  color:#2f2f2f;
+  font-size: 29px;
+  font-family: 'Poppins';
+  font-weight: 700;
+}
+.packages-box-pricings > h4{
+  color: #DF6951;
+  font-size: 29px;
+  font-weight: 500;
+  font-family: 'Poppins';
+}
+.packages-box-pricings > h5{
+  color: #7d7d7d;
+  font-family: 'Poppins';
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: line-through;
+}
+.packages-box-p{
+  color: black;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24.5px;
+  letter-spacing: 0.61px;
+}
 @media (max-width : 1170px) {
   .book-trip{
     flex-direction: column;
@@ -284,6 +517,15 @@ html{
   }
   .honeymoon-img{
     width: 100%;
+  }
+  .liberty-statue-box{
+    width: 830px;
+  }
+  .liberty-statue-h2{
+    font-size: 35px;
+  }
+  .liberty-statue-line-img{
+    width: 245px;
   }
 }
 @media (max-width : 850px){
@@ -309,6 +551,16 @@ html{
     font-size: 40px;
     line-height: 45px;
   }
+  .liberty-statue-box{
+    width: 625px;
+  }
+  .liberty-statue-h2{
+    font-size: 25px;
+  }
+  .liberty-statue-line-img{
+    width: 190px;
+    height: 25px;
+  }
 }
 @media (max-width : 670px) {
   .context-p{
@@ -332,6 +584,18 @@ html{
   .illustration-img{
     width: 100%;
   }
+  .liberty-statue-box{
+    width: 350px;
+  }
+  .liberty-statue-h2{
+    font-size: 18px;
+  }
+  .liberty-statue-line-img{
+    width: 100px;
+    height: 15px;
+    bottom: -10px;
+    right: -15px;
+  }
 }
 @media (max-width : 400px){
   .context-input,
@@ -343,6 +607,22 @@ html{
     width: 50px;
   }
   .book-text-p{
+    font-size: 12px;
+  }
+  .liberty-statue-box{
+    width: 250px;
+  }
+  .liberty-statue-h2{
+    font-size: 12px;
+  }
+  .liberty-statue-line-img{
+    width: 75px;
+    height: 12px;
+  }
+  .packages-box-title > h4{
+    font-size: 18px;
+  }
+  .packages-box-spans > p{
     font-size: 12px;
   }
 }

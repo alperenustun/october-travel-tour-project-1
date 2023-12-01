@@ -192,6 +192,161 @@ a {
   cursor: pointer;
   display: none;
 }
+.testimonial-section-container{
+  position: relative;
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 40px;
+  z-index: 9;
+}
+.testimonial-section-h5{
+  color: #DF6951;
+  font-size: 18px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+.testimonial-section-h2{
+  color: #181E4B;
+  font-family: 'Volkhov';
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 72px;
+  padding-bottom: 95px;
+}
+.testimonial-section-seashell-img{
+  position: absolute;
+  top: -80px;
+  left: 280px;
+  z-index: -99;
+}
+.testimonial-section-hat-img{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -99;
+}
+.testimonial-section-photos-img{
+  position: absolute;
+  top: -87px;
+  right: 150px;
+  z-index: -99;
+}
+.testimonial-section-box{
+  background-color: #fff;
+  border-radius: 17px;
+  display: inline-block;
+  position: relative;
+  padding: 10px 50px 20px 50px;
+}
+.testimonial-section-box-pp{
+  position: absolute;
+  top: -80px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.testimonial-section-box-arrowlft{
+  position: absolute;
+  left: -65px;
+  top: 55%;
+  transform: translateY(-55%);
+}
+.testimonial-section-box-arrowrght{
+  position: absolute;
+  right: -65px;
+  top: 55%;
+  transform: translateY(-55%);
+}
+.testimonial-section-box-text{
+  position: relative;
+  padding: 65px 60px 30px 60px;
+}
+.testimonial-box-text-nail{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+.testimonial-box-text-p{
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.611px;
+}
+.testimonial-box-text-h6{
+  color: black;
+  font-family: 'Poppins';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.61px;
+  padding-top: 10px;
+}
+.testimonial-box-text-p > span{
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 700;
+  transform: translateY(-10px);
+}
+.testimonial-container-spans {
+  display: flex;
+  gap: 5px;
+  width: 130px;
+  padding: 35px 0 60px 0;
+  justify-content: center;
+  margin: auto;
+}
+.testimonial-container-span {
+  display: block;
+  width: 32px;
+  height: 2px;
+  background-color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.testimonial-container-span:hover{
+  background-color: #DF6951;
+}
+
+.span-orgn{
+  background-color: #DF6951;
+}
+@media (max-width : 1450px){
+  .testimonial-section-photos-img{
+    right: 0;
+    opacity: 0.7;
+  }
+  .testimonial-section-seashell-img{
+    left: 0;
+    opacity: 0.7;
+  }
+}
+@media (max-width : 950px){
+  .testimonial-section-h2{
+    font-size: 40px;
+    line-height: 65px;
+  }
+  .testimonial-box-text-p{
+    line-height: 15px;
+    letter-spacing: 0.20px;
+  }
+  .testimonial-section-box-text{
+    padding: 45px 30px 15px 30px;
+  }
+  .testimonial-section-box-pp{
+    width: 130px;
+    height: 130px;
+    top: -65px;
+  }
+  .testimonial-box-text-nail{
+    width: 55px;
+    height: 55px;
+    left: 15px;
+    top: 15px;
+  }
+}
 @media (max-width : 850px) {
   .hero-nav{
     padding-top: 30px;
@@ -212,6 +367,18 @@ a {
   }
   .hero-overlay-popup{
     margin-top: 175px;
+  }
+}
+@media (max-width : 700px){
+  .testimonial-section-box-arrowlft{
+    display: none;
+  }
+  .testimonial-section-box-arrowrght{
+    display: none;
+  }
+  .testimonial-section-box{
+    padding: 10px 25px 20px 25px;
+    background-color: rgba(255, 255, 255,0.5);
   }
 }
 @media (max-width : 675px){
@@ -239,6 +406,40 @@ a {
   .inputs-box-selection{
     font-size: 20px;
     width: 125px;
+  }
+}
+@media (max-width : 575px) {
+  .testimonial-box-text-p{
+    font-size: 8px;
+    line-height: 10px;
+    letter-spacing: 0.01px;
+  }
+  .testimonial-section-h2{
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .testimonial-section-photos-img{
+    height: 170px;
+    width: 150px;
+    top: -45px;
+  }
+  .testimonial-section-seashell-img{
+    width: 105px;
+    height: 108px;
+    top: -45px;
+  }
+  .testimonial-section-hat-img{
+    width: 195px;
+    height: 200px;
+  }
+}
+@media (max-width : 425px){
+  .testimonial-section-box{
+    padding: 10px 15px 10px 15px;
+  }
+  .testimonial-box-text-h6{
+    line-height: 12px;
+    letter-spacing: 0.10px;
   }
 }
 @media (max-width : 400px) {
@@ -291,5 +492,4 @@ a {
   .popup-checkbox-box{
     gap: 0;
   }
-
 }
