@@ -26,28 +26,38 @@
     />
   </head>
   <body>
-    <header class="homepage-hero">
+    <header class="about-hero">
       <div class="hero-box container">
         <nav id="hero-navbar" class="hero-nav container">
           <img src="../images/logo.png" alt="Travel Logo" />
-          <ul class="hero-nav-links">
-            <li class="hero-nav-link"><a href="/index.html">Home</a></li>
-            <li class="hero-nav-link"><a href="#">About</a></li>
-            <li class="hero-nav-link">
-              <div class="nav-link-dropdown">
-                <a id="services-link" href="#">Services</a>
-                <div id="drop-down-links" class="hero-nav-dropdown">
-                  <a href="#">Honeymoon Packages</a>
-                  <a href="#">Tours Packages</a>
-                  <a href="#">Musical Events</a>
-                  <a href="#">Build Package</a>
+          <div class="nav-links-box">
+            <ul class="hero-nav-links">
+              <li class="hero-nav-link"><a href="/index.html">Home</a></li>
+              <li class="hero-nav-link"><a href="#">About</a></li>
+              <li class="hero-nav-link">
+                <div class="nav-link-dropdown">
+                  <a id="services-link" href="#">Services</a>
+                  <div id="drop-down-links" class="hero-nav-dropdown">
+                    <a href="/tour-location/location.html"
+                      >Honeymoon Packages</a
+                    >
+                    <a href="/tour-location/location.html">Tours Packages</a>
+                    <a href="/tour-location/location.html">Musical Events</a>
+                    <a href="/tour-location/location.html">Build Package</a>
+                  </div>
                 </div>
-              </div>
-            </li>
-            <li class="hero-nav-link"><a href="#">Upcomming Packages</a></li>
-          </ul>
-          <a onclick="increment()"
-          id="contact-owerlay" class="contact-link" href="#">Get in Touch</a>
+              </li>
+              <li class="hero-nav-link"><a href="#">Upcomming Packages</a></li>
+            </ul>
+            <a
+              onclick="increment()"
+              id="contact-owerlay"
+              class="contact-link"
+              href="#"
+              >Get in Touch</a
+            >
+          </div>
+          <img class="hamburger-icon" src="../images/menu-burger.png" />
         </nav>
         <div class="about-heading-hero">
           <h4 class="about-hero-h4">READ</h4>
@@ -56,7 +66,7 @@
       </div>
     </header>
     <div class="about-context">
-      <div class="about-context-box container">
+      <div class="about-context-box">
         <div class="about-context-hero">
           <h5 class="about-context-h5">PROMOTION</h5>
           <h1 class="about-context-h1">
@@ -105,6 +115,11 @@
               praesentium a laudantium. Et labore harum non nobis ipsum eum<br />
               molestias mollitia et corporis praesentium a laudantium.
             </p>
+            <img
+            class="shell-img"
+            src="../images/about-images/about-trend-shell-img.png"
+            alt="about tag image"
+          />
           </div>
           <div class="about-statistics-gruop">
             <div class="statistic-gruop-box">
@@ -129,11 +144,6 @@
               <h5 class="statistic-gruop-text gruop-text3">MUSICAL EVENTS</h5>
             </div>
           </div>
-          <img
-            class="shell-img"
-            src="../images/about-images/about-trend-shell-img.png"
-            alt="about tag image"
-          />
         </div>
       </div>
     </div>
@@ -253,6 +263,32 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="testimonial-section-container">
+      <h5 class="testimonial-section-h5">PROMOTION</h5>
+      <h2 class="testimonial-section-h2">See What Our Clients Say<br> About Us</h2>
+      <img class="testimonial-section-seashell-img" src="../images/testimonial-section-seashell-img.png" alt="seashell image">
+      <img class="testimonial-section-photos-img" src="../images/testimonial-section-photo-img.png" alt="photo image">
+      <img class="testimonial-section-hat-img" src="../images/testimonial-section-hat-img.png" alt="hat image">
+      <div class="testimonial-section-box">
+        <img class="testimonial-section-box-pp" src="../images/testimonial-section-box-pp-img.png" alt="picture photo">
+        <img class="testimonial-section-box-arrowlft" src="../images/arrow-leeft-icon.png" alt="arrow button">
+        <img class="testimonial-section-box-arrowrght" src="../images/arrow-right-icon.png" alt="arrow button">
+        <div class="testimonial-section-box-text">
+          <img class="testimonial-box-text-nail" src="../images/testimonial-box-text-nail-img.png" alt="nail image">
+          <p class="testimonial-box-text-p">Vel officiis dolor ea illo aut eligendi ullam non laudantium<br>
+            magnam et recusandae molestiae sit iure unde aut<br>
+            voluptate quaerat. Id sunt provident quo possimus<br>
+            impedit vel doloremque obcaecati qui ullam consectetur et<br>
+            ipsum omnis.<span>,,</span></p>
+          <h6 class="testimonial-box-text-h6">Christine Beckam - Designer</h6>
+        </div>
+      </div>
+      <div class="testimonial-container-spans">
+        <span class="testimonial-container-span"></span>
+        <span class="testimonial-container-span span-orgn"></span>
+        <span class="testimonial-container-span"></span>
       </div>
     </div>
     <div id="homepage-hero-overlay" class="homepage-hero-overlay">
