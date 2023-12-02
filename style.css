@@ -307,6 +307,7 @@ html{
   font-weight: 400;
   line-height: 20px;
 }
+
 .honeymoon-container {
   display: flex;
   gap: 165px;
@@ -315,15 +316,18 @@ html{
   margin: 0 auto;
   padding: 75px 20px;
 }
+
 .honeymoon-content {
   flex: 1;
   margin: 150px;
   height: 100%;
   width: 100%;
 }
+
 .honeymoon-img {
   max-width: 650px;
 }
+
 .view-packages-button {
   display: inline-block;
   padding: 20px 25px;
@@ -332,6 +336,7 @@ html{
   color: white;
   cursor: pointer;
 }
+
 .honeymoon-page-p {
   color: black;
   font-family: "Poppins", sans-serif;
@@ -341,6 +346,7 @@ html{
   line-height: 26px;
   padding: 20px 0;
 }
+
 .honeymoon-page-h3 {
   color: #181e4b;
   font-family: "Volkhov", serif;
@@ -349,6 +355,7 @@ html{
   font-weight: 700;
   line-height: 70px;
 }
+
 .honeymoon-page-h4 {
   color: #df6951;
   font-family: "Poppins", sans-serif;
@@ -444,6 +451,65 @@ html{
   right: 0;
   z-index: -1;
   position: absolute;
+}
+.homepage-explore-sections-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit , minmax( 425px , 1fr ));
+}
+.explore-section-box{
+  position: relative;
+}
+.explore-box-img{
+  width: 100%;
+}
+.explore-box-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+}
+.explore-box-h5{
+  color: #FFEFEC;
+  font-size: 18px;
+  font-family: 'Poppins';
+  font-weight: 700;
+  letter-spacing: 1.8px;
+}
+.explore-box-h2{
+  color: #fff;
+  font-family: 'Volkhov', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 72px;
+}
+.explore-sections-container-opac{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  left: 0;
+  top: 0;
+}
+.explore-box-text-img{
+  position: absolute;
+  bottom: -5px;
+  right: -50px;
+}
+.explore-section-button{
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-15%);
+  background-color: rgba(255, 255, 255, 0);
+  padding: 10px 25px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  font-family: 'Poppins';
+  font-weight: 600;
+  &:hover{
+    background-color: rgb(255, 255, 255, 0.7);
+  }
 }
 .homepage-packages-container{
   text-align: center;
@@ -553,6 +619,16 @@ html{
   line-height: 24.5px;
   letter-spacing: 0.61px;
 }
+@media (max-width : 1515px) {
+  .explore-box-h2{
+    font-size: 38px;
+    line-height: 60px;
+  }
+  .explore-section-button{
+    bottom: 10%;
+    font-size: 12px;
+  }
+}
 @media (max-width : 1170px) {
   .book-trip{
     flex-direction: column;
@@ -574,6 +650,19 @@ html{
   }
   .liberty-statue-line-img{
     width: 245px;
+  }
+  .explore-box-h2{
+    font-size: 28px;
+    line-height: 50px;
+  }
+  .explore-box-h5{
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    padding-bottom: 5px;
+  }
+  .explore-section-button{
+    bottom: 5%;
+    font-size: 8px;
   }
 }
 @media (max-width : 850px){
@@ -661,11 +750,27 @@ html{
     gap: 15px;
   }
   .destination-4,
-.destination-3,
-.destination-2,
-.destination-1{
-  width: 100%;
+  .destination-3,
+  .destination-2,
+  .destination-1{
+    width: 100%;
+  }
 }
+@media (max-width : 520px) {
+  .homepage-explore-sections-container{
+    grid-template-columns: repeat(auto-fit , minmax(260px , 1fr));
+  }
+  .explore-box-h2{
+    line-height: 15px;
+    font-size: 25px;
+  }
+  .explore-box-h5{
+    font-size: 8px;
+    letter-spacing: 0.5px;
+  }
+  .explore-section-button{
+    padding: 5px 15px;
+  }
 }
 @media (max-width : 400px){
   .context-input,
@@ -694,5 +799,24 @@ html{
   }
   .packages-box-spans > p{
     font-size: 12px;
+  }
+  .explore-box-text{
+    top: 35%;
+  }
+  .explore-box-h2{
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .explore-box-h5{
+    font-size: 10px;
+    letter-spacing: 0.8px;
+  }
+  .explore-section-button{
+    bottom: 5%;
+    font-size: 8px;
+    padding: 3px 10px;
+  }
+  .explore-box-text-img{
+    bottom: -20px;
   }
 }
