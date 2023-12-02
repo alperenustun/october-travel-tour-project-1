@@ -455,6 +455,7 @@ html{
 .homepage-explore-sections-container{
   display: grid;
   grid-template-columns: repeat(auto-fit , minmax( 425px , 1fr ));
+  margin-top: 200px;
 }
 .explore-section-box{
   position: relative;
